@@ -6406,17 +6406,17 @@ var gear = {
    "custom" : [
       {
          "id": 1,
-         "name": "+ 10 Attack Power",
+         "name": "+ 10 攻强",
          "ap": 10,
       },
       {
          "id": 2,
-         "name": "+ 20 Attack Power",
+         "name": "+ 20 攻强",
          "ap": 20
       },
       {
          "id": 3,
-         "name": "+ 50 Attack Power",
+         "name": "+ 50 攻强",
          "ap": 50
       },
       {

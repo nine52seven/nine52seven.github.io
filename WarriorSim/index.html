@@ -3,7 +3,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width">
-  <title>Warrior DPS Sim</title>
+  <title>战士 DPS 模拟器</title>
 
   <link href="dist/css/theme.default.min.css" rel="stylesheet">
   <link href="dist/css/style.css" rel="stylesheet">
@@ -61,36 +61,36 @@ profiles
   <section class="sidebar">
     <div class="bg"></div>
     <div class="character">
-      <p><span id="race">Human</span> Warrior</p>
+      <p><span id="race">人类</span> 战士</p>
       <p>Level 60</p>
 
       <ul>
         <li>
-          <label>Attack Power</label>
+          <label>攻强</label>
           <span id="ap"></span>
         </li>
         <li>
-          <label>Strength</label>
+          <label>力量</label>
           <span id="str"></span>
         </li>
         <li>
-          <label>Agility</label>
+          <label>敏捷</label>
           <span id="agi"></span>
         </li>
         <li>
-          <label>Hit</label>
+          <label>命中</label>
           <span id="hit"></span>
         </li>
         <li>
-          <label>Skill</label>
+          <label>技能</label>
           <span id="skill"></span>
         </li>
         <li>
-          <label>Miss</label>
+          <label>未命中</label>
           <span id="miss"></span>
         </li>
         <li>
-          <label>Crit</label>
+          <label>爆击</label>
           <span id="crit"></span>
         </li>
         <li>
@@ -102,7 +102,7 @@ profiles
           <span id="dmgmod"></span>
         </li>
         <li>
-          <label>Haste</label>
+          <label>急速</label>
           <span id="haste"></span>
         </li>
         <li>
@@ -113,11 +113,11 @@ profiles
     </div>
     <div class="bottom">
       <div id="weights-div">
-        <div id="weight-str"><span class="stat-name">Strength:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
-        <div id="weight-agi"><span class="stat-name">Agility:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
-        <div id="weight-ap"><span class="stat-name">Attack Power:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
-        <div id="weight-crit"><span class="stat-name">Crit Chance:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
-        <div id="weight-hit"><span class="stat-name">Hit Chance:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
+        <div id="weight-str"><span class="stat-name">力量:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
+        <div id="weight-agi"><span class="stat-name">敏捷:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
+        <div id="weight-ap"><span class="stat-name">攻强:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
+        <div id="weight-crit"><span class="stat-name">暴击几率:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
+        <div id="weight-hit"><span class="stat-name">命中几率:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
       </div>
       <div id="dps-box"><span id="dps"></span><span id="dpserr"></span></div>
       <div id="stats"></div>
@@ -126,9 +126,9 @@ profiles
       <a href="#" class="btn js-weights">STAT WEIGHTS</a>
       <a href="#" class="btn js-table">SHEET DPS</a>
       <a href="#" class="btn js-stats disabled">STATS</a>
-      <a href="#" class="btn js-settings">SETTINGS</a>
+      <a href="#" class="btn js-settings">设置</a>
     </div>
-    <div class="manual"><a href="https://docs.google.com/document/d/1-ugglMDHqIQlEDiE2z9G7zuI-kgyvb2kvgPobWbcxy0/edit" target="_blank">User Manual</a></div>
+    <div class="manual"><a href="https://docs.google.com/document/d/1-ugglMDHqIQlEDiE2z9G7zuI-kgyvb2kvgPobWbcxy0/edit" target="_blank">用户手册</a></div>
     <div class="author">made by Guybrush-Golemagg</div>
   </section>
 
@@ -146,14 +146,14 @@ profiles
           <li>
             <label>Race</label>
             <select dir="rtl" name="race">
-              <option value="Human">Human</option>
-              <option value="Dwarf">Dwarf</option>
-              <option value="Gnome">Gnome</option>
-              <option value="Night Elf">Night Elf</option>
-              <option value="Undead">Undead</option>
-              <option value="Orc">Orc</option>
-              <option value="Tauren">Tauren</option>
-              <option value="Troll">Troll</option>
+              <option value="Human">人类</option>
+              <option value="Dwarf">矮人</option>
+              <option value="Gnome">侏儒</option>
+              <option value="Night Elf">暗夜精灵</option>
+              <option value="Undead">亡灵</option>
+              <option value="Orc">兽人</option>
+              <option value="Tauren">牛头人</option>
+              <option value="Troll">巨魔</option>
             </select>
           </li>
           <li>
