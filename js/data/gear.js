@@ -5288,7 +5288,7 @@ var gear = {
          "id": 18484
       },
       {
-         "name": "Chromatically Tempered Sword",
+         "name": "多彩之剑",
          "str": 14,
          "sta": 7,
          "agi": 14,
