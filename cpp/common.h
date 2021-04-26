@@ -104,7 +104,6 @@ struct Config
         int executeperc;
         int startrage;
         int iterations;
-        int batching;
     } sim;
 };
 #pragma pack( pop )

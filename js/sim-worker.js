@@ -89,7 +89,6 @@ onmessage = (event) => {
         module.HEAP32[cfg + 16] = params.sim.executeperc;
         module.HEAP32[cfg + 17] = params.sim.startrage;
         module.HEAP32[cfg + 18] = params.sim.iterations;
-        module.HEAP32[cfg + 19] = params.sim.batching;
 
         const talentsPtr = module._allocTalents();
         for (let tree of talents) {

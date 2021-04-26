@@ -167,11 +167,6 @@ SIM.SETTINGS = {
             SIM.UI.updateSidebar();
         });
 
-        view.fight.on('change', 'select[name="batching"]', function (e) {
-            SIM.UI.updateSession();
-            SIM.UI.updateSidebar();
-        });
-
     },
 
     buildSpells: function () {

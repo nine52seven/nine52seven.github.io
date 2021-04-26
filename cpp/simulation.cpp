@@ -8,7 +8,6 @@ Simulation::Simulation( Config& cfg, const Talents& talents )
     , executeperc( cfg.sim.executeperc )
     , startrage( cfg.sim.startrage )
     , iterations( cfg.sim.iterations )
-    , batching( cfg.sim.batching )
     , priorityap( Execute::options.priorityap )
     , maxcallstack( std::min( cfg.sim.iterations / 10, 1000 ) )
     , player( *this, cfg, talents )
@@ -185,7 +184,7 @@ void Simulation::run()
         }
         if ( player.batchedextras > 0 )
         {
-            player.mh->timer = batching - ( step % batching );
+            player.mh->timer = 400 - ( step % 400 );
             player.batchedextras -= 1;
         }
 
