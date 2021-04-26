@@ -1,6 +1,6 @@
 var races = [
    {
-      name: '人类',
+      name: 'Human',
       str: 120,
       agi: 80,
       sta: 110,
