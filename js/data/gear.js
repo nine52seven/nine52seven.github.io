@@ -3681,7 +3681,7 @@ var gear = {
          "id": 18838
       },
       {
-         "name": "Kingsfall",
+         "name": "帝殒",
          "crit": 1,
          "hit": 1,
          "agi": 16,
@@ -3694,7 +3694,7 @@ var gear = {
          "id": 22802
       },
       {
-         "name": "Maexxna's Fang",
+         "name": "迈克斯纳之牙",
          "hit": 1,
          "sta": 8,
          "ap": 36,
