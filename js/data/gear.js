@@ -1354,7 +1354,7 @@ var gear = {
          "id": 15063
       },
       {
-         "name": "Edgemaster's Handguards",
+         "name": "剑师护手",
          "ac": 201,
          "skill": 7,
          "type": "Varied",
@@ -4223,7 +4223,7 @@ var gear = {
          "id": 19968
       },
       {
-         "name": "Gressil, Dawn of Ruin",
+         "name": "格雷希尔，毁灭之黎明",
          "sta": 15,
          "ap": 40,
          "mindmg": 138,
@@ -4235,7 +4235,7 @@ var gear = {
          "id": 23054
       },
       {
-         "name": "Iblis, Blade of the Fallen Seraph",
+         "name": "伊普利斯，堕落炽天使之刃",
          "crit": 1,
          "hit": 1,
          "ap": 26,
@@ -4262,7 +4262,7 @@ var gear = {
          "id": 2244
       },
       {
-         "name": "Maladath, Runed Blade of the Black Flight",
+         "name": "玛拉达斯，黑龙军团的符文之剑",
          "parry": 1,
          "skill": 4,
          "mindmg": 86,
