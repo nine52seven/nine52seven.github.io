@@ -6507,19 +6507,19 @@ var enchant = {
    "head": [
       {
          "id": 18329,
-         "name": "Arcanum of Rapidity",
+         "name": "急速秘药",
          "haste": 1,
          "phase": 2
       },
       {
          "id": 11647,
-         "name": "Lesser Arcanum of Voracity (Agi)",
+         "name": "次级贪婪秘药 (敏捷)",
          "agi": 8,
          "phase": 1
       },
       {
          "id": 11645,
-         "name": "Lesser Arcanum of Voracity (Str)",
+         "name": "次级贪婪秘药 (力量)",
          "str": 8,
          "phase": 1
       },
@@ -6528,7 +6528,7 @@ var enchant = {
       {
          "id": 29483,
          "spellid": true,
-         "name": "Might of the Scourge",
+         "name": "天灾的威严",
          "ap": 26,
          "crit": 1,
          "phase": 6
@@ -6536,7 +6536,7 @@ var enchant = {
       {
          "id": 24422,
          "spellid": true,
-         "name": "Zandalar Signet of Might",
+         "name": "赞达拉力量徽记",
          "ap": 30,
          "phase": 4
       },
@@ -6545,13 +6545,13 @@ var enchant = {
       {
          "id": 25084,
          "spellid": true,
-         "name": "Subtlety",
+         "name": "附魔披风 - 狡诈",
          "phase": 5
       },
       {
          "id": 13882,
          "spellid": true,
-         "name": "Lesser Agility",
+         "name": "附魔披风 - 次级敏捷",
          "agi": 3,
          "phase": 1
       },
@@ -6560,7 +6560,7 @@ var enchant = {
       {
          "id": 20025,
          "spellid": true,
-         "name": "Greater Stats",
+         "name": "附魔胸甲 - 强效属性",
          "agi": 4,
          "str": 4,
          "phase": 1
@@ -6568,7 +6568,7 @@ var enchant = {
       {
          "id": 13941,
          "spellid": true,
-         "name": "Stats",
+         "name": "附魔胸甲 - 状态",
          "agi": 3,
          "str": 3,
          "phase": 1
@@ -6578,14 +6578,14 @@ var enchant = {
       {
          "id": 13939,
          "spellid": true,
-         "name": "Greater Strength",
+         "name": "附魔手套 - 强效力量",
          "str": 7,
          "phase": 1
       },
       {
          "id": 20010,
          "spellid": true,
-         "name": "Superior Strength",
+         "name": "附魔护腕 - 超强力量",
          "str": 9,
          "phase": 1
       },
@@ -6594,28 +6594,28 @@ var enchant = {
       {
          "id": 25080,
          "spellid": true,
-         "name": "Superior Agility",
+         "name": "附魔手套 - 超强敏捷",
          "agi": 15,
          "phase": 5
       },
       {
          "id": 20012,
          "spellid": true,
-         "name": "Greater Agility",
+         "name": "附魔手套 - 强效敏捷",
          "agi": 7,
          "phase": 1
       },
       {
          "id": 20013,
          "spellid": true,
-         "name": "Greater Strength",
+         "name": "附魔手套 - 强效力量",
          "str": 7,
          "phase": 1
       },
       {
          "id": 13948,
          "spellid": true,
-         "name": "Minor Haste",
+         "name": "附魔手套 - 初级加速",
          "haste": 1,
          "phase": 1
       },
@@ -6623,19 +6623,19 @@ var enchant = {
    "legs": [
       {
          "id": 18329,
-         "name": "Arcanum of Rapidity",
+         "name": "急速秘药",
          "haste": 1,
          "phase": 2
       },
       {
          "id": 11647,
-         "name": "Lesser Arcanum of Voracity (Agi)",
+         "name": "次级贪婪秘药 (敏捷)",
          "agi": 8,
          "phase": 1
       },
       {
          "id": 11645,
-         "name": "Lesser Arcanum of Voracity (Str)",
+         "name": "次级贪婪秘药 (力量)",
          "str": 8,
          "phase": 1
       },
@@ -6644,14 +6644,14 @@ var enchant = {
       {
          "id": 20023,
          "spellid": true,
-         "name": "Greater Agility",
+         "name": "附魔靴子 - 强效敏捷",
          "agi": 7,
          "phase": 1
       },
       {
          "id": 13890,
          "spellid": true,
-         "name": "Minor Speed",
+         "name": "附魔靴子 - 初级速度",
          "phase": 1
       },
    ],
@@ -6659,21 +6659,21 @@ var enchant = {
       {
          "id": 23800,
          "spellid": true,
-         "name": "Agility",
+         "name": "附魔武器 - 敏捷",
          "agi": 15,
          "phase": 1
       },
       {
          "id": 23799,
          "spellid": true,
-         "name": "Strength",
+         "name": "附魔武器 - 力量",
          "str": 15,
          "phase": 1
       },
       {
          "id": 20034,
          "spellid": true,
-         "name": "Crusader",
+         "name": "附魔武器 - 十字军",
          "phase": 1,
          "ppm": 1,
          "procspell": "Crusader"
@@ -6681,7 +6681,7 @@ var enchant = {
       {
          "id": 13898,
          "spellid": true,
-         "name": "Fiery",
+         "name": "附魔武器 - 烈焰",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 44
@@ -6689,7 +6689,7 @@ var enchant = {
       {
          "id": 20032,
          "spellid": true,
-         "name": "Lifestealing",
+         "name": "附魔武器 - 生命偷取",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 33
@@ -6697,27 +6697,27 @@ var enchant = {
       {
          "id": 20031,
          "spellid": true,
-         "name": "Superior Striking",
+         "name": "附魔武器 - 超强打击",
          "bonusdmg": 5,
          "phase": 1
       },
       {
          "id": 18262,
-         "name": "Elemental Sharpening Stone",
+         "name": "元素磨刀石",
          "crit": 2,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 12404,
-         "name": "Dense Stone",
+         "name": "致密磨刀石",
          "bonusdmg": 8,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 23122,
-         "name": "Consecrated Sharpening Stone",
+         "name": "神圣磨刀石",
          "ap": 108,
          "phase": 6,
          "temp": true,
@@ -6727,21 +6727,21 @@ var enchant = {
       {
          "id": 23800,
          "spellid": true,
-         "name": "Agility",
+         "name": "附魔武器 - 敏捷",
          "agi": 15,
          "phase": 1
       },
       {
          "id": 23799,
          "spellid": true,
-         "name": "Strength",
+         "name": "附魔武器 - 力量",
          "str": 15,
          "phase": 1
       },
       {
          "id": 20034,
          "spellid": true,
-         "name": "Crusader",
+         "name": "附魔武器 - 十字军",
          "phase": 1,
          "ppm": 1,
          "procspell": "Crusader"
@@ -6749,7 +6749,7 @@ var enchant = {
       {
          "id": 13898,
          "spellid": true,
-         "name": "Fiery",
+         "name": "附魔武器 - 烈焰",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 44
@@ -6757,7 +6757,7 @@ var enchant = {
       {
          "id": 20032,
          "spellid": true,
-         "name": "Lifestealing",
+         "name": "附魔武器 - 生命偷取",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 33
@@ -6765,31 +6765,31 @@ var enchant = {
       {
          "id": 20031,
          "spellid": true,
-         "name": "Superior Striking",
+         "name": "附魔武器 - 超强打击",
          "bonusdmg": 5,
          "phase": 1
       },
       {
          "id": 18262,
-         "name": "Elemental Sharpening Stone",
+         "name": "元素磨刀石",
          "crit": 2,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 12404,
-         "name": "Dense Stone",
+         "name": "致密磨刀石",
          "bonusdmg": 8,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 23122,
-         "name": "Consecrated Sharpening Stone",
+         "name": "神圣磨刀石",
          "ap": 108,
          "phase": 6,
          "temp": true,
-      }
+      },
    ],
    "twohand": [
       {
