@@ -81,7 +81,7 @@ SIM.UI = {
         view.main.on('click', '.js-enchant', function(e) {
             e.preventDefault();
             view.disableEditMode();
-            const rows = view.tcontainer.find('table.enchant tbody tr'); 
+            const rows = view.tcontainer.find('table.enchant tbody tr');
             rows.addClass('waiting');
             view.tcontainer.find('table.enchant tbody tr td:last-of-type').html('');
             view.startLoading();
@@ -106,9 +106,9 @@ SIM.UI = {
             var type = li.data('type');
             if (!type) type = li.parents('[data-type]').data('type');
 
-            if (type == "mainhand" || type == "offhand" || type == "twohand") 
+            if (type == "mainhand" || type == "offhand" || type == "twohand")
                 view.loadWeapons(type);
-            else if (type == "custom") 
+            else if (type == "custom")
                 view.loadCustom();
             else
                 view.loadGear(type);
@@ -171,9 +171,9 @@ SIM.UI = {
     enableEditMode: function() {
         var view = this;
         let type = view.tcontainer.find('table.gear').attr('data-type');
-        if (type == "mainhand" || type == "offhand" || type == "twohand") 
+        if (type == "mainhand" || type == "offhand" || type == "twohand")
             view.loadWeapons(type, true);
-        else if (type == "custom") 
+        else if (type == "custom")
             view.loadCustom(true);
         else
             view.loadGear(type, true);
@@ -183,9 +183,9 @@ SIM.UI = {
         var view = this;
         view.main.find('.js-editmode').removeClass('active');
         let type = view.tcontainer.find('table.gear').attr('data-type');
-        if (type == "mainhand" || type == "offhand" || type == "twohand") 
+        if (type == "mainhand" || type == "offhand" || type == "twohand")
             view.loadWeapons(type, false);
-        else if (type == "custom") 
+        else if (type == "custom")
             view.loadCustom(false);
         else
             view.loadGear(type, false);
@@ -243,7 +243,7 @@ SIM.UI = {
                 SIM.STATS.initCharts(report);
                 sim = null;
                 player = null;
-                
+
             },
             (iteration, report) => {
                 // Update
@@ -417,7 +417,7 @@ SIM.UI = {
                     let sortList = [[$(this).find('th').length - 1, 1]];
                     $(this).trigger("sorton", [sortList]);
                 });
-                
+
                 tr.removeClass('waiting');
                 updateFn(100);
                 sim = null;
@@ -706,11 +706,11 @@ SIM.UI = {
     filterGear: function () {
         var view = this;
         var type = view.main.find('nav > ul > li.active').data('type');
-        if (type == "mainhand" || type == "offhand") 
+        if (type == "mainhand" || type == "offhand")
             view.loadWeapons(type);
-        else if (type == "custom") 
+        else if (type == "custom")
             view.loadCustom();
-        else 
+        else
             view.loadGear(type);
     },
 
@@ -748,7 +748,7 @@ SIM.UI = {
                     if (item.type != "Mace" && item.type != "Sword") continue;
                 }
                 else if (filter == "Axe, Dagger & Sword") {
-                    if (item.type != "Axe"  && item.type != "Dagger" && item.type != "Sword") continue; 
+                    if (item.type != "Axe"  && item.type != "Dagger" && item.type != "Sword") continue;
                 }
                 else if (item.type != filter)
                     continue;
@@ -768,7 +768,7 @@ SIM.UI = {
             let tooltip = item.id, rand = '';
             if (tooltip == 199211) tooltip = 19921;
             if (item.rand) rand = '?rand=' + item.rand;
-                
+
             table += `<tr data-id="${item.id}" data-name="${item.name}" class="${item.selected ? 'active' : ''} ${item.hidden ? 'hidden' : ''}">
                         ${editmode ? '<td class="hide">' + (item.hidden ? eyesvghidden : eyesvg) + '</td>' : ''}
                         <td><a href="https://classic.wowhead.com/item=${tooltip}${rand}"></a>${item.name}</td>
@@ -800,8 +800,8 @@ SIM.UI = {
                 14 : function(a, b, direction, column, table) {
                     var a = parseFloat(a.substring(0,a.indexOf('.') + 3));
                     var b = parseFloat(b.substring(0,b.indexOf('.') + 3));
-                    if (isNaN(a)) a = 0; 
-                    if (isNaN(b)) b = 0; 
+                    if (isNaN(a)) a = 0;
+                    if (isNaN(b)) b = 0;
                     return (a < b) ? -1 : (a > b) ? 1 : 0;
                 },
             },
@@ -842,7 +842,7 @@ SIM.UI = {
             if (item.source == 'Lethon' || item.source == 'Emeriss' || item.source == 'Kazzak' || item.source == 'Azuregos' || item.source == 'Ysondre' || item.source == 'Taerar' || item.source == 'Green Dragons')
                 source = 'worldboss';
 
-            if (max == 2 && 
+            if (max == 2 &&
                 ((phase && !view.filter.find('.phases [data-id="' + phase + '"]').hasClass('active')) ||
                 (source && !view.filter.find('.sources [data-id="' + source + '"]').hasClass('active'))))
                 item.selected = false;
@@ -886,8 +886,8 @@ SIM.UI = {
                 10 : function(a, b, direction, column, table) {
                     var a = parseFloat(a.substring(0,a.indexOf('.') + 3));
                     var b = parseFloat(b.substring(0,b.indexOf('.') + 3));
-                    if (isNaN(a)) a = 0; 
-                    if (isNaN(b)) b = 0; 
+                    if (isNaN(a)) a = 0;
+                    if (isNaN(b)) b = 0;
                     return (a < b) ? -1 : (a > b) ? 1 : 0;
                 },
             },
@@ -955,7 +955,7 @@ SIM.UI = {
                         <thead>
                             <tr>
                                 ${editmode ? '<th></th>' : ''}
-                                <th>Enchant</th>
+                                <th>附魔</th>
                                 <th>Str</th>
                                 <th>Agi</th>
                                 <th>AP</th>
@@ -1009,7 +1009,7 @@ SIM.UI = {
         setTimeout(function () { view.alerts.find('.alert').addClass('in-up') });
         setTimeout(function () { view.closeAlert(); }, 4000);
     },
-    
+
     closeAlert: function () {
         var view = this;
         view.alerts.find('.alert').removeClass('in-up');
@@ -1031,7 +1031,7 @@ SIM.UI = {
             setTimeout(() => { view.filter.find(`.phases [data-id="5"]`).click() }, 100);
 
     }
-    
+
 
 
 };

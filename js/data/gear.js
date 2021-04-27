@@ -1,7 +1,7 @@
 var gear = {
    "head": [
       {
-         "name": "Eye of Rend",
+         "name": "雷德之眼",
          "sta": 7,
          "str": 13,
          "crit": 2,
@@ -21,7 +21,7 @@ var gear = {
          "id": 20623
       },
       {
-         "name": "Conqueror's Crown",
+         "name": "征服者的皇冠",
          "str": 29,
          "sta": 34,
          "agi": 18,
@@ -86,7 +86,7 @@ var gear = {
          "id": 21460
       },
       {
-         "name": "Helm of Endless Rage",
+         "name": "无尽怒气头盔",
          "str": 26,
          "sta": 29,
          "agi": 26,
@@ -147,7 +147,7 @@ var gear = {
          "id": 16963
       },
       {
-         "name": "Lionheart Helm",
+         "name": "狮心头盔",
          "crit": 2,
          "hit": 2,
          "str": 18,
@@ -240,7 +240,7 @@ var gear = {
          "id": 19491
       },
       {
-         "name": "Barbed Choker",
+         "name": "尖刺颈饰",
          "crit": 1,
          "sta": 10,
          "ap": 44,
@@ -310,7 +310,7 @@ var gear = {
          "id": 15411
       },
       {
-         "name": "Onyxia Tooth Pendant",
+         "name": "奥妮克希亚龙牙坠饰",
          "crit": 1,
          "hit": 1,
          "sta": 9,
@@ -328,7 +328,7 @@ var gear = {
          "id": 22340
       },
       {
-         "name": "Prestor's Talisman of Connivery",
+         "name": "普瑞斯托的阴谋饰物",
          "hit": 1,
          "agi": 30,
          "source": "BWL",
@@ -336,7 +336,7 @@ var gear = {
          "id": 19377
       },
       {
-         "name": "Sadist's Collar",
+         "name": "萨迪斯的项圈",
          "crit": 1,
          "sta": 24,
          "ap": 20,
@@ -345,7 +345,7 @@ var gear = {
          "id": 23023
       },
       {
-         "name": "Stormrage's Talisman of Seething",
+         "name": "怒风的沸腾符咒",
          "crit": 2,
          "sta": 12,
          "ap": 26,
@@ -354,7 +354,7 @@ var gear = {
          "id": 23053
       },
       {
-         "name": "The Eye of Hakkar",
+         "name": "哈卡之眼",
          "crit": 1,
          "ap": 40,
          "source": "ZG",
@@ -487,7 +487,7 @@ var gear = {
          "id": 21474
       },
       {
-         "name": "Conqueror's Spaulders",
+         "name": "征服者的肩铠",
          "hit": 1,
          "str": 20,
          "sta": 21,
@@ -670,7 +670,7 @@ var gear = {
          "id": 13340
       },
       {
-         "name": "Cloak of Concentrated Hatred",
+         "name": "强烈仇恨披风",
          "hit": 1,
          "str": 11,
          "sta": 15,
@@ -691,7 +691,7 @@ var gear = {
          "id": 19436
       },
       {
-         "name": "Cloak of the Fallen God",
+         "name": "堕落神明披风",
          "str": 11,
          "sta": 15,
          "agi": 26,
@@ -750,7 +750,7 @@ var gear = {
          "id": 17107
       },
       {
-         "name": "Drape of Unyielding Strength",
+         "name": "坚定力量披风",
          "hit": 1,
          "str": 15,
          "sta": 9,
@@ -809,7 +809,7 @@ var gear = {
          "id": 21456
       },
       {
-         "name": "Shroud of Dominion",
+         "name": "支配披风",
          "crit": 1,
          "sta": 11,
          "ap": 50,
@@ -897,7 +897,7 @@ var gear = {
          "id": 19690
       },
       {
-         "name": "Breastplate of Annihilation",
+         "name": "灭绝胸甲",
          "crit": 1,
          "hit": 1,
          "str": 37,
@@ -989,7 +989,7 @@ var gear = {
          "id": 14637
       },
       {
-         "name": "Conqueror's Breastplate",
+         "name": "征服者的胸甲",
          "str": 34,
          "sta": 38,
          "agi": 24,
@@ -1010,7 +1010,7 @@ var gear = {
          "id": 11926
       },
       {
-         "name": "Ghoul Skin Tunic",
+         "name": "食尸鬼皮外套",
          "crit": 2,
          "str": 40,
          "sta": 22,
@@ -1049,7 +1049,7 @@ var gear = {
          "id": 18530
       },
       {
-         "name": "Plated Abomination Ribcage",
+         "name": "钉板憎恶胸骨",
          "crit": 1,
          "hit": 1,
          "str": 45,
@@ -1183,7 +1183,7 @@ var gear = {
          "id": 16959
       },
       {
-         "name": "Bracers of Brutality",
+         "name": "野蛮护腕",
          "str": 21,
          "sta": 9,
          "agi": 12,
@@ -1251,7 +1251,7 @@ var gear = {
          "id": 18533
       },
       {
-         "name": "Hive Defiler Wristguards",
+         "name": "虫巢污染者护腕",
          "str": 23,
          "agi": 18,
          "ac": 384,
@@ -1320,7 +1320,7 @@ var gear = {
          "id": 18812
       },
       {
-         "name": "Wristguards of Vengeance",
+         "name": "复仇腕甲",
          "crit": 1,
          "str": 24,
          "sta": 10,
@@ -1363,7 +1363,7 @@ var gear = {
          "id": 14551
       },
       {
-         "name": "Flameguard Gauntlets",
+         "name": "烈焰守卫护手",
          "crit": 1,
          "sta": 13,
          "ap": 54,
@@ -1373,7 +1373,7 @@ var gear = {
          "id": 19143
       },
       {
-         "name": "Gauntlets of Annihilation",
+         "name": "毁灭护手",
          "crit": 1,
          "hit": 1,
          "str": 35,
@@ -1570,7 +1570,7 @@ var gear = {
          "id": 16864
       },
       {
-         "name": "Belt of Never-ending Agony",
+         "name": "无尽痛苦腰带",
          "crit": 1,
          "hit": 1,
          "sta": 20,
@@ -1632,7 +1632,7 @@ var gear = {
          "id": 13142
       },
       {
-         "name": "Girdle of the Mentor",
+         "name": "教官的腰带",
          "crit": 1,
          "hit": 1,
          "str": 21,
@@ -1675,7 +1675,7 @@ var gear = {
          "id": 19087
       },
       {
-         "name": "Onslaught Girdle",
+         "name": "冲击束带",
          "crit": 1,
          "hit": 1,
          "str": 31,
@@ -1824,7 +1824,7 @@ var gear = {
          "id": 145541
       },
       {
-         "name": "Conqueror's Legguards",
+         "name": "征服者的腿铠",
          "hit": 1,
          "str": 33,
          "sta": 24,
@@ -1876,7 +1876,7 @@ var gear = {
          "id": 13498
       },
       {
-         "name": "Leggings of Apocalypse",
+         "name": "天启护腿",
          "crit": 2,
          "str": 15,
          "sta": 23,
@@ -1897,7 +1897,7 @@ var gear = {
          "id": 19402
       },
       {
-         "name": "Legplates of Carnage",
+         "name": "血战腿铠",
          "crit": 2,
          "str": 42,
          "sta": 18,
@@ -1981,7 +1981,7 @@ var gear = {
          "id": 23301
       },
       {
-         "name": "Scaled Sand Reaver Leggings",
+         "name": "缀鳞沙漠掠夺者护腿",
          "crit": 2,
          "sta": 23,
          "ap": 62,
@@ -2002,7 +2002,7 @@ var gear = {
          "id": 22672
       },
       {
-         "name": "Titanic Leggings",
+         "name": "泰坦护腿",
          "crit": 1,
          "hit": 2,
          "str": 30,
@@ -2134,7 +2134,7 @@ var gear = {
          "id": 16734
       },
       {
-         "name": "Chromatic Boots",
+         "name": "多彩长靴",
          "hit": 1,
          "str": 20,
          "sta": 19,
@@ -2309,7 +2309,7 @@ var gear = {
          "id": 18522
       },
       {
-         "name": "Band of Unnatural Forces",
+         "name": "超自然能量指环",
          "crit": 1,
          "hit": 1,
          "ap": 52,
@@ -2390,7 +2390,7 @@ var gear = {
          "id": 19514
       },
       {
-         "name": "Quick Strike Ring",
+         "name": "迅击戒指",
          "crit": 1,
          "str": 5,
          "sta": 8,
@@ -2427,7 +2427,7 @@ var gear = {
          "id": 21596
       },
       {
-         "name": "Ring of the Qiraji Fury",
+         "name": "其拉之怒",
          "crit": 1,
          "sta": 12,
          "ap": 40,
@@ -2568,7 +2568,7 @@ var gear = {
          "id": 19432
       },
       {
-         "name": "Don Julio's Band",
+         "name": "胡里奥指环",
          "crit": 1,
          "hit": 1,
          "sta": 11,
@@ -2728,7 +2728,7 @@ var gear = {
          "id": 19949
       },
       {
-         "name": "Badge of the Swarmguard (Used last 30 secs / 50% proc chance)",
+         "name": "虫群卫士徽章 (Used last 30 secs / 50% proc chance)",
          "source": "AQ40",
          "phase": "5",
          "id": 21670
@@ -2772,7 +2772,7 @@ var gear = {
          "id": 19406
       },
       {
-         "name": "Earthstrike (Used last 20 secs)",
+         "name": "大地之击 (Used last 20 secs)",
          "source": "Quest",
          "phase": "5",
          "id": 21180,
@@ -2801,7 +2801,7 @@ var gear = {
          "id": 23570,
       },
       {
-         "name": "Kiss of the Spider (Used last 15 secs)",
+         "name": "蜘蛛之吻 (Used last 15 secs)",
          "crit": 1,
          "hit": 1,
          "source": "Naxx",
@@ -2824,14 +2824,14 @@ var gear = {
          "id": 13209
       },
       {
-         "name": "Slayer's Crest (Used last 20 secs)",
+         "name": "屠龙者的纹章 (Used last 20 secs)",
          "ap": 64,
          "source": "Naxx",
          "phase": "6",
          "id": 23041,
       },
       {
-         "name": "Mark of the Champion (vs Undead)",
+         "name": "勇士印记 (vs Undead)",
          "ap": 150,
          "source": "Naxx",
          "phase": "6",
@@ -2875,13 +2875,13 @@ var gear = {
          "magicdmg": 250,
       },
       {
-         "name": "Diamond Flask (Used last 60 secs)",
+         "name": "钻石水瓶 (Used last 60 secs)",
          "source": "Quest",
          "phase": "3",
          "id": 20130,
       },
       {
-         "name": "Drake Fang Talisman",
+         "name": "龙牙饰物",
          "hit": 2,
          "ap": 56,
          "dodge": 1,
@@ -2913,7 +2913,7 @@ var gear = {
          "magicdmg": 165,
       },
       {
-         "name": "Jom Gabbar (Used last 20 secs)",
+         "name": "沙虫之毒 (Used last 20 secs)",
          "source": "AQ40",
          "phase": "5",
          "id": 23570,
@@ -2942,7 +2942,7 @@ var gear = {
          "id": 13209
       },
       {
-         "name": "Slayer's Crest (Used last 20 secs)",
+         "name": "屠龙者的纹章 (Used last 20 secs)",
          "ap": 64,
          "source": "Naxx",
          "phase": "6",
@@ -2990,7 +2990,7 @@ var gear = {
          "id": 19993
       },
       {
-         "name": "Huhuran's Stinger",
+         "name": "哈霍兰之刺",
          "agi": 18,
          "source": "AQ40",
          "phase": "5",
@@ -3013,7 +3013,7 @@ var gear = {
          "id": 20038
       },
       {
-         "name": "Soulstring",
+         "name": "灵魂之弦",
          "crit": 1,
          "sta": 6,
          "ap": 16,
@@ -3045,7 +3045,7 @@ var gear = {
          "id": 18323
       },
       {
-         "name": "Striker's Mark",
+         "name": "速射强弓",
          "hit": 1,
          "ap": 22,
          "source": "MC",
@@ -3127,7 +3127,7 @@ var gear = {
          "id": 13039
       },
       {
-         "name": "Blastershot Launcher",
+         "name": "爆击猎枪",
          "crit": 1,
          "sta": 6,
          "source": "MC",
@@ -3151,7 +3151,7 @@ var gear = {
          "id": 20722
       },
       {
-         "name": "Dragonbreath Hand Cannon",
+         "name": "龙息手持火炮",
          "sta": 7,
          "agi": 14,
          "source": "BWL",
@@ -3174,7 +3174,7 @@ var gear = {
          "id": 13139
       },
       {
-         "name": "Larvae of the Great Worm",
+         "name": "巨虫的幼体",
          "crit": 1,
          "ap": 18,
          "source": "AQ40",
@@ -3190,7 +3190,7 @@ var gear = {
          "id": 21800
       },
       {
-         "name": "Toxin Injector",
+         "name": "毒液注射器",
          "sta": 10,
          "ap": 28,
          "source": "Naxx",
@@ -3272,7 +3272,7 @@ var gear = {
          "procgcd": true,
       },
       {
-         "name": "Blessed Qiraji War Axe",
+         "name": "神圣其拉战斧",
          "crit": 1,
          "sta": 9,
          "ap": 14,
@@ -3297,7 +3297,7 @@ var gear = {
          "id": 18737
       },
       {
-         "name": "Crul'Shorukh, Edge of Chaos",
+         "name": "克鲁索洛克恩，混乱之刃",
          "sta": 13,
          "ap": 36,
          "mindmg": 101,
@@ -3334,7 +3334,7 @@ var gear = {
          "procgcd": true,
       },
       {
-         "name": "Doom's Edge",
+         "name": "末日之刃",
          "str": 9,
          "sta": 7,
          "agi": 16,
@@ -3393,7 +3393,7 @@ var gear = {
          "id": 13952
       },
       {
-         "name": "R14 Axe",
+         "name": "大元帅的手斧",
          "crit": 1,
          "sta": 7,
          "ap": 28,
@@ -3418,7 +3418,7 @@ var gear = {
          "id": 13015
       },
       {
-         "name": "Sickle of Unyielding Strength",
+         "name": "坚定力量之镰",
          "str": 15,
          "sta": 9,
          "agi": 6,
@@ -3517,7 +3517,7 @@ var gear = {
          "id": 13368
       },
       {
-         "name": "Core Hound Tooth",
+         "name": "熔火犬牙",
          "crit": 1,
          "sta": 9,
          "ap": 20,
@@ -3542,7 +3542,7 @@ var gear = {
          "magicdmg": 99
       },
       {
-         "name": "Death's Sting",
+         "name": "死亡之钉",
          "sta": 10,
          "ap": 38,
          "skill": 3,
@@ -3555,7 +3555,7 @@ var gear = {
          "id": 21126
       },
       {
-         "name": "Dragonfang Blade",
+         "name": "龙牙之刃",
          "sta": 13,
          "agi": 16,
          "mindmg": 69,
@@ -3592,7 +3592,7 @@ var gear = {
          "id": 19859
       },
       {
-         "name": "Felstriker",
+         "name": "恶魔之击",
          "mindmg": 54,
          "maxdmg": 101,
          "speed": 1.7,
@@ -3681,7 +3681,7 @@ var gear = {
          "id": 18838
       },
       {
-         "name": "Kingsfall",
+         "name": "帝殒",
          "crit": 1,
          "hit": 1,
          "agi": 16,
@@ -3694,7 +3694,7 @@ var gear = {
          "id": 22802
       },
       {
-         "name": "Maexxna's Fang",
+         "name": "迈克斯纳之牙",
          "hit": 1,
          "sta": 8,
          "ap": 36,
@@ -3792,7 +3792,7 @@ var gear = {
          "id": 22377
       },
       {
-         "name": "Claw of the Black Drake",
+         "name": "黑龙之爪",
          "Mainhand": true,
          "crit": 1,
          "str": 13,
@@ -3806,7 +3806,7 @@ var gear = {
          "id": 19365
       },
       {
-         "name": "Eskhandar's Right Claw",
+         "name": "艾斯卡达尔的右爪",
          "Mainhand": true,
          "agi": 4,
          "mindmg": 50,
@@ -3846,7 +3846,7 @@ var gear = {
          "id": 22317
       },
       {
-         "name": "Silithid Claw",
+         "name": "异种虫爪",
          "Mainhand": true,
          "crit": 1,
          "ap": 30,
@@ -3926,7 +3926,7 @@ var gear = {
          "procgcd": true,
       },
       {
-         "name": "Empyrean Demolisher",
+         "name": "苍穹击碎者",
          "Mainhand": true,
          "mindmg": 94,
          "maxdmg": 175,
@@ -3992,7 +3992,7 @@ var gear = {
          "id": 13006
       },
       {
-         "name": "Misplaced Servo Arm",
+         "name": "遗失的义肢",
          "mindmg": 128,
          "maxdmg": 238,
          "speed": 2.8,
@@ -4096,7 +4096,7 @@ var gear = {
          "id": 18376
       },
       {
-         "name": "Ancient Qiraji Ripper",
+         "name": "上古其拉撕裂者",
          "crit": 1,
          "sta": 11,
          "ap": 20,
@@ -4109,7 +4109,7 @@ var gear = {
          "id": 21650
       },
       {
-         "name": "Blackguard",
+         "name": "黑色卫士",
          "sta": 9,
          "parry": 1,
          "mindmg": 65,
@@ -4299,7 +4299,7 @@ var gear = {
          "id": 20577
       },
       {
-         "name": "Quel'Serrar",
+         "name": "奎尔塞拉",
          "Mainhand": true,
          "sta": 12,
          "mindmg": 84,
@@ -4311,7 +4311,7 @@ var gear = {
          "id": 18348
       },
       {
-         "name": "R14 Longsword",
+         "name": "大元帅的长剑",
          "crit": 1,
          "sta": 7,
          "ap": 28,
@@ -4337,7 +4337,7 @@ var gear = {
          "id": 23456
       },
       {
-         "name": "Ravencrest's Legacy",
+         "name": "拉文凯斯的遗产",
          "str": 13,
          "sta": 14,
          "agi": 9,
@@ -4389,7 +4389,7 @@ var gear = {
          "coeff": 1,
       },
       {
-         "name": "Teebu's Blazing Longsword",
+         "name": "提布的炽炎长剑",
          "Mainhand": true,
          "mindmg": 96,
          "maxdmg": 178,
@@ -4402,7 +4402,7 @@ var gear = {
          "magicdmg": 165
       },
       {
-         "name": "The Hungering Cold",
+         "name": "饥饿之寒",
          "sta": 14,
          "ac": 140,
          "skill": 6,
@@ -4427,7 +4427,7 @@ var gear = {
          "procextra": 1
       },
       {
-         "name": "Thunderfury, Blessed Blade of the Windseeker",
+         "name": "雷霆之怒，逐风者的祝福之剑",
          "sta": 8,
          "agi": 5,
          "mindmg": 60,
@@ -4442,7 +4442,7 @@ var gear = {
          "binaryspell": true
       },
       {
-         "name": "Warblade of the Hakkari (MH)",
+         "name": "哈卡莱战刃 (主手)",
          "Mainhand": true,
          "crit": 1,
          "ap": 28,
@@ -4468,7 +4468,7 @@ var gear = {
          "id": 22806
       },
       {
-         "name": "Vis'kag the Bloodletter",
+         "name": "放血者维斯卡格",
          "mindmg": 100,
          "maxdmg": 187,
          "speed": 2.6,
@@ -4580,7 +4580,7 @@ var gear = {
          "id": 19363
       },
       {
-         "name": "Deathbringer",
+         "name": "死亡召唤者",
          "mindmg": 114,
          "maxdmg": 213,
          "speed": 2.9,
@@ -4629,7 +4629,7 @@ var gear = {
          "id": 19103
       },
       {
-         "name": "Hatchet of Sundered Bone",
+         "name": "碎裂白骨战斧",
          "crit": 1,
          "ap": 36,
          "mindmg": 119,
@@ -4740,7 +4740,7 @@ var gear = {
          "id": 19166
       },
       {
-         "name": "Blessed Qiraji Pugio",
+         "name": "神圣其拉短剑",
          "crit": 1,
          "hit": 1,
          "sta": 7,
@@ -4891,7 +4891,7 @@ var gear = {
          "procgcd": true
       },
       {
-         "name": "Harbinger of Doom",
+         "name": "末日先驱",
          "crit": 1,
          "hit": 1,
          "sta": 8,
@@ -4930,7 +4930,7 @@ var gear = {
          "id": 18838
       },
       {
-         "name": "Kingsfall",
+         "name": "帝殒",
          "crit": 1,
          "hit": 1,
          "agi": 16,
@@ -4943,7 +4943,7 @@ var gear = {
          "id": 22802
       },
       {
-         "name": "Maexxna's Fang",
+         "name": "迈克斯纳之牙",
          "hit": 1,
          "sta": 8,
          "ap": 36,
@@ -4956,7 +4956,7 @@ var gear = {
          "id": 22804
       },
       {
-         "name": "Perdition's Blade",
+         "name": "毁灭之刃",
          "mindmg": 73,
          "maxdmg": 137,
          "speed": 1.8,
@@ -5055,7 +5055,7 @@ var gear = {
          "procgcd": true
       },
       {
-         "name": "Claw of the Frost Wyrm",
+         "name": "冰霜巨龙之爪",
          "offhand": true,
          "crit": 1,
          "hit": 1,
@@ -5070,7 +5070,7 @@ var gear = {
          "id": 23242
       },
       {
-         "name": "Eskhandar's Left Claw",
+         "name": "艾斯卡达尔的左爪",
          "offhand": true,
          "agi": 4,
          "mindmg": 50,
@@ -5121,7 +5121,7 @@ var gear = {
          "id": 21837
       },
       {
-         "name": "Blessed Qiraji War Hammer",
+         "name": "神圣其拉战锤",
          "str": 10,
          "sta": 12,
          "defense": 8,
@@ -5212,7 +5212,7 @@ var gear = {
          "id": 19104
       },
       {
-         "name": "The Castigator",
+         "name": "谴责者",
          "crit": 1,
          "hit": 1,
          "sta": 9,
@@ -5264,7 +5264,7 @@ var gear = {
          "id": 19168
       },
       {
-         "name": "Brutality Blade",
+         "name": "残忍利刃",
          "crit": 1,
          "str": 9,
          "agi": 9,
@@ -5326,7 +5326,7 @@ var gear = {
          "id": 12939
       },
       {
-         "name": "Gressil, Dawn of Ruin",
+         "name": "格雷希尔，毁灭之黎明",
          "sta": 15,
          "ap": 40,
          "mindmg": 138,
@@ -5338,7 +5338,7 @@ var gear = {
          "id": 23054
       },
       {
-         "name": "Iblis, Blade of the Fallen Seraph",
+         "name": "伊普利斯，堕落炽天使之刃",
          "crit": 1,
          "hit": 1,
          "ap": 26,
@@ -5351,7 +5351,7 @@ var gear = {
          "id": 23014
       },
       {
-         "name": "Maladath, Runed Blade of the Black Flight",
+         "name": "玛拉达斯，黑龙军团的符文之剑",
          "parry": 1,
          "skill": 4,
          "mindmg": 86,
@@ -5493,7 +5493,7 @@ var gear = {
          "binaryspell": true
       },
       {
-         "name": "Warblade of the Hakkari (OH)",
+         "name": "哈卡莱战刃 (副手)",
          "offhand": true,
          "ap": 40,
          "mindmg": 57,
@@ -5505,7 +5505,7 @@ var gear = {
          "id": 19866
       },
       {
-         "name": "Widow's Remorse",
+         "name": "黑女巫的悔恨",
          "hit": 1,
          "sta": 17,
          "ac": 100,
@@ -5604,7 +5604,7 @@ var gear = {
          "ppm": 1,
       },
       {
-         "name": "Dark Edge of Insanity",
+         "name": "疯狂黑暗之刃",
          "str": 35,
          "sta": 25,
          "agi": 19,
@@ -5724,7 +5724,7 @@ var gear = {
          "type": "Axe"
       },
       {
-         "name": "Severance",
+         "name": "断离",
          "crit": 2,
          "str": 43,
          "sta": 18,
@@ -5737,7 +5737,7 @@ var gear = {
          "type": "Axe"
       },
       {
-         "name": "Spinal Reaper",
+         "name": "脊骨收割者",
          "ap": 34,
          "mindmg": 203,
          "maxdmg": 305,
@@ -5894,7 +5894,7 @@ var gear = {
          "ppm": 4,
       },
       {
-         "name": "Might of Menethil",
+         "name": "米奈希尔之力",
          "crit": 2,
          "str": 20,
          "sta": 46,
@@ -5917,7 +5917,7 @@ var gear = {
          "type": "Mace"
       },
       {
-         "name": "Sulfuras, Hand of Ragnaros",
+         "name": "萨弗拉斯，炎魔拉格纳罗斯之手",
          "str": 12,
          "sta": 12,
          "mindmg": 223,
@@ -5970,7 +5970,7 @@ var gear = {
          "type": "Mace"
       },
       {
-         "name": "Barb of the Sand Reaver",
+         "name": "沙漠掠夺者之刺",
          "sta": 31,
          "agi": 41,
          "mindmg": 225,
@@ -6113,7 +6113,7 @@ var gear = {
          "type": "Polearm"
       },
       {
-         "name": "The Eye of Nerub",
+         "name": "蛛魔之眼",
          "sta": 22,
          "agi": 45,
          "mindmg": 251,
@@ -6137,7 +6137,7 @@ var gear = {
          "type": "Polearm"
       },
       {
-         "name": "Ashkandi, Greatsword of the Brotherhood",
+         "name": "阿什坎迪，兄弟会之剑",
          "sta": 33,
          "ap": 86,
          "mindmg": 229,
@@ -6184,7 +6184,7 @@ var gear = {
          "type": "Sword"
       },
       {
-         "name": "Bonereaver's Edge",
+         "name": "削骨之刃",
          "crit": 1,
          "sta": 16,
          "mindmg": 206,
@@ -6210,7 +6210,7 @@ var gear = {
          "type": "Sword"
       },
       {
-         "name": "Corrupted Ashbringer",
+         "name": "堕落的灰烬使者",
          "hit": 1,
          "crit": 2,
          "mindmg": 259,
@@ -6507,19 +6507,19 @@ var enchant = {
    "head": [
       {
          "id": 18329,
-         "name": "Arcanum of Rapidity",
+         "name": "急速秘药",
          "haste": 1,
          "phase": 2
       },
       {
          "id": 11647,
-         "name": "Lesser Arcanum of Voracity (Agi)",
+         "name": "次级贪婪秘药 (敏捷)",
          "agi": 8,
          "phase": 1
       },
       {
          "id": 11645,
-         "name": "Lesser Arcanum of Voracity (Str)",
+         "name": "次级贪婪秘药 (力量)",
          "str": 8,
          "phase": 1
       },
@@ -6528,7 +6528,7 @@ var enchant = {
       {
          "id": 29483,
          "spellid": true,
-         "name": "Might of the Scourge",
+         "name": "天灾的威严",
          "ap": 26,
          "crit": 1,
          "phase": 6
@@ -6536,7 +6536,7 @@ var enchant = {
       {
          "id": 24422,
          "spellid": true,
-         "name": "Zandalar Signet of Might",
+         "name": "赞达拉力量徽记",
          "ap": 30,
          "phase": 4
       },
@@ -6545,13 +6545,13 @@ var enchant = {
       {
          "id": 25084,
          "spellid": true,
-         "name": "Subtlety",
+         "name": "附魔披风 - 狡诈",
          "phase": 5
       },
       {
          "id": 13882,
          "spellid": true,
-         "name": "Lesser Agility",
+         "name": "附魔披风 - 次级敏捷",
          "agi": 3,
          "phase": 1
       },
@@ -6560,7 +6560,7 @@ var enchant = {
       {
          "id": 20025,
          "spellid": true,
-         "name": "Greater Stats",
+         "name": "附魔胸甲 - 强效属性",
          "agi": 4,
          "str": 4,
          "phase": 1
@@ -6568,7 +6568,7 @@ var enchant = {
       {
          "id": 13941,
          "spellid": true,
-         "name": "Stats",
+         "name": "附魔胸甲 - 状态",
          "agi": 3,
          "str": 3,
          "phase": 1
@@ -6578,14 +6578,14 @@ var enchant = {
       {
          "id": 13939,
          "spellid": true,
-         "name": "Greater Strength",
+         "name": "附魔手套 - 强效力量",
          "str": 7,
          "phase": 1
       },
       {
          "id": 20010,
          "spellid": true,
-         "name": "Superior Strength",
+         "name": "附魔护腕 - 超强力量",
          "str": 9,
          "phase": 1
       },
@@ -6594,28 +6594,28 @@ var enchant = {
       {
          "id": 25080,
          "spellid": true,
-         "name": "Superior Agility",
+         "name": "附魔手套 - 超强敏捷",
          "agi": 15,
          "phase": 5
       },
       {
          "id": 20012,
          "spellid": true,
-         "name": "Greater Agility",
+         "name": "附魔手套 - 强效敏捷",
          "agi": 7,
          "phase": 1
       },
       {
          "id": 20013,
          "spellid": true,
-         "name": "Greater Strength",
+         "name": "附魔手套 - 强效力量",
          "str": 7,
          "phase": 1
       },
       {
          "id": 13948,
          "spellid": true,
-         "name": "Minor Haste",
+         "name": "附魔手套 - 初级加速",
          "haste": 1,
          "phase": 1
       },
@@ -6623,19 +6623,19 @@ var enchant = {
    "legs": [
       {
          "id": 18329,
-         "name": "Arcanum of Rapidity",
+         "name": "急速秘药",
          "haste": 1,
          "phase": 2
       },
       {
          "id": 11647,
-         "name": "Lesser Arcanum of Voracity (Agi)",
+         "name": "次级贪婪秘药 (敏捷)",
          "agi": 8,
          "phase": 1
       },
       {
          "id": 11645,
-         "name": "Lesser Arcanum of Voracity (Str)",
+         "name": "次级贪婪秘药 (力量)",
          "str": 8,
          "phase": 1
       },
@@ -6644,14 +6644,14 @@ var enchant = {
       {
          "id": 20023,
          "spellid": true,
-         "name": "Greater Agility",
+         "name": "附魔靴子 - 强效敏捷",
          "agi": 7,
          "phase": 1
       },
       {
          "id": 13890,
          "spellid": true,
-         "name": "Minor Speed",
+         "name": "附魔靴子 - 初级速度",
          "phase": 1
       },
    ],
@@ -6659,21 +6659,21 @@ var enchant = {
       {
          "id": 23800,
          "spellid": true,
-         "name": "Agility",
+         "name": "附魔武器 - 敏捷",
          "agi": 15,
          "phase": 1
       },
       {
          "id": 23799,
          "spellid": true,
-         "name": "Strength",
+         "name": "附魔武器 - 力量",
          "str": 15,
          "phase": 1
       },
       {
          "id": 20034,
          "spellid": true,
-         "name": "Crusader",
+         "name": "附魔武器 - 十字军",
          "phase": 1,
          "ppm": 1,
          "procspell": "Crusader"
@@ -6681,7 +6681,7 @@ var enchant = {
       {
          "id": 13898,
          "spellid": true,
-         "name": "Fiery",
+         "name": "附魔武器 - 烈焰",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 44
@@ -6689,7 +6689,7 @@ var enchant = {
       {
          "id": 20032,
          "spellid": true,
-         "name": "Lifestealing",
+         "name": "附魔武器 - 生命偷取",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 33
@@ -6697,27 +6697,27 @@ var enchant = {
       {
          "id": 20031,
          "spellid": true,
-         "name": "Superior Striking",
+         "name": "附魔武器 - 超强打击",
          "bonusdmg": 5,
          "phase": 1
       },
       {
          "id": 18262,
-         "name": "Elemental Sharpening Stone",
+         "name": "元素磨刀石",
          "crit": 2,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 12404,
-         "name": "Dense Stone",
+         "name": "致密磨刀石",
          "bonusdmg": 8,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 23122,
-         "name": "Consecrated Sharpening Stone",
+         "name": "神圣磨刀石",
          "ap": 108,
          "phase": 6,
          "temp": true,
@@ -6727,21 +6727,21 @@ var enchant = {
       {
          "id": 23800,
          "spellid": true,
-         "name": "Agility",
+         "name": "附魔武器 - 敏捷",
          "agi": 15,
          "phase": 1
       },
       {
          "id": 23799,
          "spellid": true,
-         "name": "Strength",
+         "name": "附魔武器 - 力量",
          "str": 15,
          "phase": 1
       },
       {
          "id": 20034,
          "spellid": true,
-         "name": "Crusader",
+         "name": "附魔武器 - 十字军",
          "phase": 1,
          "ppm": 1,
          "procspell": "Crusader"
@@ -6749,7 +6749,7 @@ var enchant = {
       {
          "id": 13898,
          "spellid": true,
-         "name": "Fiery",
+         "name": "附魔武器 - 烈焰",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 44
@@ -6757,7 +6757,7 @@ var enchant = {
       {
          "id": 20032,
          "spellid": true,
-         "name": "Lifestealing",
+         "name": "附魔武器 - 生命偷取",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 33
@@ -6765,31 +6765,31 @@ var enchant = {
       {
          "id": 20031,
          "spellid": true,
-         "name": "Superior Striking",
+         "name": "附魔武器 - 超强打击",
          "bonusdmg": 5,
          "phase": 1
       },
       {
          "id": 18262,
-         "name": "Elemental Sharpening Stone",
+         "name": "元素磨刀石",
          "crit": 2,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 12404,
-         "name": "Dense Stone",
+         "name": "致密磨刀石",
          "bonusdmg": 8,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 23122,
-         "name": "Consecrated Sharpening Stone",
+         "name": "神圣磨刀石",
          "ap": 108,
          "phase": 6,
          "temp": true,
-      }
+      },
    ],
    "twohand": [
       {
