@@ -4069,7 +4069,7 @@ var gear = {
          "id": 19104
       },
       {
-         "name": "The Castigator",
+         "name": "谴责者",
          "crit": 1,
          "hit": 1,
          "sta": 9,
