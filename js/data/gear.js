@@ -2327,7 +2327,7 @@ var gear = {
          "id": 17713
       },
       {
-         "name": "Circle of Applied Force",
+         "name": "源力之环",
          "str": 12,
          "sta": 9,
          "agi": 22,
@@ -2336,7 +2336,7 @@ var gear = {
          "id": 19432
       },
       {
-         "name": "Don Julio's Band",
+         "name": "胡里奥指环",
          "crit": 1,
          "hit": 1,
          "sta": 11,
@@ -2541,7 +2541,7 @@ var gear = {
          "id": 18522
       },
       {
-         "name": "Band of Unnatural Forces",
+         "name": "超自然能量指环",
          "crit": 1,
          "hit": 1,
          "ap": 52,
@@ -2559,7 +2559,7 @@ var gear = {
          "id": 17713
       },
       {
-         "name": "Circle of Applied Force",
+         "name": "源力之环",
          "str": 12,
          "sta": 9,
          "agi": 22,
@@ -2622,7 +2622,7 @@ var gear = {
          "id": 19514
       },
       {
-         "name": "Quick Strike Ring",
+         "name": "迅击戒指",
          "crit": 1,
          "str": 5,
          "sta": 8,
@@ -2795,7 +2795,7 @@ var gear = {
          "magicdmg": 165,
       },
       {
-         "name": "Jom Gabbar (Used last 20 secs)",
+         "name": "沙虫之毒 (Used last 20 secs)",
          "source": "AQ40",
          "phase": "5",
          "id": 23570,
@@ -2919,7 +2919,7 @@ var gear = {
          "id": 23570,
       },
       {
-         "name": "Kiss of the Spider (Used last 15 secs)",
+         "name": "蜘蛛之吻 (Used last 15 secs)",
          "crit": 1,
          "hit": 1,
          "source": "Naxx",
@@ -3370,7 +3370,7 @@ var gear = {
          "id": 19103
       },
       {
-         "name": "Hatchet of Sundered Bone",
+         "name": "碎裂白骨战斧",
          "crit": 1,
          "ap": 36,
          "mindmg": 119,
@@ -4568,7 +4568,7 @@ var gear = {
          "id": 18737
       },
       {
-         "name": "Crul'Shorukh, Edge of Chaos",
+         "name": "克鲁索洛克恩，混乱之刃",
          "sta": 13,
          "ap": 36,
          "mindmg": 101,
@@ -5453,7 +5453,7 @@ var gear = {
          "coeff": 1
       },
       {
-         "name": "The Hungering Cold",
+         "name": "饥饿之寒",
          "sta": 14,
          "ac": 140,
          "skill": 6,
@@ -5478,7 +5478,7 @@ var gear = {
          "procextra": 1
       },
       {
-         "name": "Thunderfury, Blessed Blade of the Windseeker",
+         "name": "雷霆之怒，逐风者的祝福之剑",
          "sta": 8,
          "agi": 5,
          "mindmg": 60,

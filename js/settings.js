@@ -180,29 +180,29 @@ SIM.SETTINGS = {
             </div><ul class="options"></ul></div>`);
 
             if (spell.timetoend !== undefined)
-                div.find('.options').append(`<li>Use on last <input type="text" name="timetoend" value="${spell.timetoend}" data-numberonly="true" /> seconds</li>`);
+                div.find('.options').append(`<li>最后 <input type="text" name="timetoend" value="${spell.timetoend}" data-numberonly="true" /> 秒使用</li>`);
             if (spell.minrage !== undefined)
-                div.find('.options').append(`<li>Use when above <input type="text" name="minrage" value="${spell.minrage}" data-numberonly="true" /> rage</li>`);
+                div.find('.options').append(`<li>怒气超过 <input type="text" name="minrage" value="${spell.minrage}" data-numberonly="true" /> 使用</li>`);
             if (spell.maxrage !== undefined)
-                div.find('.options').append(`<li>Use when below <input type="text" name="maxrage" value="${spell.maxrage}" data-numberonly="true" /> rage</li>`);
+                div.find('.options').append(`<li>怒气低于 <input type="text" name="maxrage" value="${spell.maxrage}" data-numberonly="true" /> </li>`);
             if (spell.globals !== undefined)
-                div.find('.options').append(`<li>Use on first <input type="text" name="globals" value="${spell.globals}" data-numberonly="true" /> globals</li>`);
+                div.find('.options').append(`<li>开局使用 <input type="text" name="globals" value="${spell.globals}" data-numberonly="true" /> </li>`);
             if (spell.maincd !== undefined)
-                div.find('.options').append(`<li>BT/MS cooldown >= <input type="text" name="maincd" value="${spell.maincd}" data-numberonly="true" /> secs</li>`);
+                div.find('.options').append(`<li>嗜血 CD >= <input type="text" name="maincd" value="${spell.maincd}" data-numberonly="true" /> 秒</li>`);
             if (spell.crusaders !== undefined)
-                div.find('.options').append(`<li>when <input type="text" name="crusaders" value="${spell.crusaders}" data-numberonly="true" /> crusaders are up</li>`);
+                div.find('.options').append(`<li>当触发 <input type="text" name="crusaders" value="${spell.crusaders}" data-numberonly="true" /> 十字军</li>`);
             if (spell.haste !== undefined)
                 div.find('.options').append(`<li>Attack speed at <input type="text" name="haste" value="${spell.haste}" data-numberonly="true" /> %</li>`);
             if (spell.priorityap !== undefined)
-                div.find('.options').append(`<li>Prioritize BT/MS when >= <input style="width:25px" type="text" name="priorityap" value="${spell.priorityap}" data-numberonly="true" /> AP</li>`);
+                div.find('.options').append(`<li>当攻强>= <input style="width:25px" type="text" name="priorityap" value="${spell.priorityap}" data-numberonly="true" /> 优先使用嗜血</li>`);
             if (spell.id == 23255)
-                div.find('.options').append(`<li>Include Deep Wounds damage</li>`);
+                div.find('.options').append(`<li>包括重伤</li>`);
             if (spell.id == 11605)
-                div.find('.options').append(`<li>Slam macro with MH swing</li>`);
+                div.find('.options').append(`<li>猛击宏</li>`);
             if (spell.id == 2687)
-                div.find('.options').append('<li>Used on cooldown below 80 rage</li>');
+                div.find('.options').append('<li>怒气低于80,立即使用</li>');
             if (spell.reaction !== undefined)
-                div.find('.options').append(`<li><input style="width:25px" type="text" name="reaction" value="${spell.reaction}" data-numberonly="true" /> ms reaction time</li>`);
+                div.find('.options').append(`<li>延迟 <input style="width:25px" type="text" name="reaction" value="${spell.reaction}" data-numberonly="true" /> ms</li>`);
             if (spell.hidden)
                 div.addClass('hidden');
             if (localStorage.race == "Orc" && spell.id == 20572)
@@ -222,24 +222,24 @@ SIM.SETTINGS = {
 
             if (spell.id == 11567) {
                 div.find('.options').empty();
-                div.find('.options').append(`<li>Queue when above <input type="text" name="minrage" value="30" data-numberonly="true"> rage or BT/MS cooldown >= <input type="text" name="maincd" value="4" data-numberonly="true"> secs</li>`);
-                div.find('.options').append(`<li>Unqueue if below <input type="text" name="unqueue" value="${spell.unqueue}" data-numberonly="true" /> rage, <input type="text" name="unqueuetimer" value="${spell.unqueuetimer}" data-numberonly="true" /> ms before MH swing</li>`);
-                div.find('.options').append(`<li><input style="width:25px" type="text" name="reaction" value="${spell.reaction}" data-numberonly="true" /> ms reaction time</li>`);
+                div.find('.options').append(`<li>怒气大于 <input type="text" name="minrage" value="30" data-numberonly="true"> 或 嗜血CD >= <input type="text" name="maincd" value="4" data-numberonly="true"> 秒,加入循环队列</li>`);
+                div.find('.options').append(`<li>怒气低于 <input type="text" name="unqueue" value="${spell.unqueue}" data-numberonly="true" /> , 主手攻击时间低于<input type="text" name="unqueuetimer" value="${spell.unqueuetimer}" data-numberonly="true" /> ms,取消队列</li>`);
+                div.find('.options').append(`<li>延迟 <input style="width:25px" type="text" name="reaction" value="${spell.reaction}" data-numberonly="true" /> 毫秒 </li>`);
             }
 
             if (spell.id == 115671) {
                 div.find('.options').empty();
-                div.find('.options').before('<label>Execute phase HS:</label>');
-                div.find('.options').append(`<li>Queue when above <input type="text" name="minrage" value="30" data-numberonly="true"> rage</li>`);
-                div.find('.options').append(`<li>Unqueue if below <input type="text" name="unqueue" value="${spell.unqueue}" data-numberonly="true" /> rage, <input type="text" name="unqueuetimer" value="${spell.unqueuetimer}" data-numberonly="true" /> ms before MH swing</li>`);
-                div.find('.options').append(`<li><input style="width:25px" type="text" name="reaction" value="${spell.reaction}" data-numberonly="true" /> ms reaction time</li>`);
+                div.find('.options').before('<label>斩杀阶段 英勇打击:</label>');
+                div.find('.options').append(`<li>怒气大于 <input type="text" name="minrage" value="30" data-numberonly="true"> 加入队列</li>`);
+                div.find('.options').append(`<li>怒气低于 <input type="text" name="unqueue" value="${spell.unqueue}" data-numberonly="true" /> , 主手攻击时间低于<input type="text" name="unqueuetimer" value="${spell.unqueuetimer}" data-numberonly="true" /> ms,取消队列</li>`);
+                div.find('.options').append(`<li>延迟<input style="width:25px" type="text" name="reaction" value="${spell.reaction}" data-numberonly="true" /> 毫秒</li>`);
             }
 
             if (spell.id == 11585) {
                 div.find('.options').empty();
-                div.find('.options').append(`<li>Use when below <input type="text" name="maxrage" value="${spell.maxrage}" data-numberonly="true" /> rage and</li>`);
-                div.find('.options').append(`<li>BT/MS cooldown >= <input type="text" name="maincd" value="${spell.maincd}" data-numberonly="true" /> secs</li>`);
-                div.find('.options').append(`<li><input style="width:25px" type="text" name="reaction" value="${spell.reaction}" data-numberonly="true" /> ms reaction time</li>`);
+                div.find('.options').append(`<li>怒气低于 <input type="text" name="maxrage" value="${spell.maxrage}" data-numberonly="true" /> 使用,并且</li>`);
+                div.find('.options').append(`<li>嗜血CD >= <input type="text" name="maincd" value="${spell.maincd}" data-numberonly="true" /> 秒</li>`);
+                div.find('.options').append(`<li>延迟 <input style="width:25px" type="text" name="reaction" value="${spell.reaction}" data-numberonly="true" /> 毫秒 </li>`);
             }
 
             view.rotation.append(div);
