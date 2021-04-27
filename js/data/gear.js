@@ -5478,7 +5478,7 @@ var gear = {
          "procextra": 1
       },
       {
-         "name": "Thunderfury, Blessed Blade of the Windseeker",
+         "name": "雷霆之怒，逐风者的祝福之剑",
          "sta": 8,
          "agi": 5,
          "mindmg": 60,
