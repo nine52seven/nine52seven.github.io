@@ -10,7 +10,7 @@ var gear = {
          "id": 12587
       },
       {
-         "name": "Circlet of Restless Dreams",
+         "name": "躁动梦境头饰",
          "sta": 38,
          "agi": 21,
          "ac": 175,
@@ -32,7 +32,7 @@ var gear = {
          "id": 21329
       },
       {
-         "name": "Crown of Destruction",
+         "name": "毁灭王冠",
          "crit": 2,
          "sta": 23,
          "ap": 44,
@@ -42,7 +42,7 @@ var gear = {
          "id": 18817
       },
       {
-         "name": "Dreadnaught Helmet",
+         "name": "无畏头盔",
          "str": 21,
          "sta": 45,
          "dodge": 1,
@@ -53,7 +53,7 @@ var gear = {
          "id": 22418
       },
       {
-         "name": "Expert Goldminer's Helmet",
+         "name": "采金专家的头盔",
          "sta": 6,
          "agi": 5,
          "ac": 95,
@@ -2258,7 +2258,7 @@ var gear = {
    ],
    "finger1": [
       {
-         "name": "Archimtiros' Ring of Reckoning",
+         "name": "阿基迪罗斯的清算之戒",
          "sta": 28,
          "agi": 14,
          "source": "BWL",
@@ -2266,7 +2266,7 @@ var gear = {
          "id": 19376
       },
       {
-         "name": "Band of Accuria",
+         "name": "埃古雷亚指环",
          "hit": 2,
          "sta": 10,
          "agi": 16,
@@ -2293,7 +2293,7 @@ var gear = {
          "id": 19925
       },
       {
-         "name": "Band of Reanimation",
+         "name": "鼓舞之戒",
          "sta": 22,
          "agi": 34,
          "source": "Naxx",
@@ -2355,7 +2355,7 @@ var gear = {
          "id": 12548
       },
       {
-         "name": "Master Dragonslayer's Ring",
+         "name": "屠龙大师之戒",
          "hit": 1,
          "sta": 14,
          "ap": 48,
@@ -2410,7 +2410,7 @@ var gear = {
          "id": 21601
       },
       {
-         "name": "Ring of Fury",
+         "name": "愤怒之戒",
          "hit": 1,
          "sta": 9,
          "ap": 30,
@@ -2419,7 +2419,7 @@ var gear = {
          "id": 21477
       },
       {
-         "name": "Ring of the Godslayer",
+         "name": "屠神者之戒",
          "sta": 17,
          "agi": 27,
          "source": "AQ40",
@@ -2453,7 +2453,7 @@ var gear = {
          "id": 22722
       },
       {
-         "name": "Signet of the Fallen Defender",
+         "name": "堕落卫士的徽记",
          "hit": 1,
          "sta": 24,
          "ac": 140,
@@ -2471,7 +2471,7 @@ var gear = {
          "id": 21393
       },
       {
-         "name": "Signet Ring of the Bronze Dragonflight",
+         "name": "青铜龙军团的徽记之戒",
          "hit": 1,
          "sta": 13,
          "agi": 24,
@@ -2490,7 +2490,7 @@ var gear = {
    ],
    "finger2": [
       {
-         "name": "Archimtiros' Ring of Reckoning",
+         "name": "阿基迪罗斯的清算之戒",
          "sta": 28,
          "agi": 14,
          "source": "BWL",
@@ -2525,7 +2525,7 @@ var gear = {
          "id": 19925
       },
       {
-         "name": "Band of Reanimation",
+         "name": "鼓舞之戒",
          "sta": 22,
          "agi": 34,
          "source": "Naxx",
@@ -2587,7 +2587,7 @@ var gear = {
          "id": 12548
       },
       {
-         "name": "Master Dragonslayer's Ring",
+         "name": "屠龙大师之戒",
          "hit": 1,
          "sta": 14,
          "ap": 48,
@@ -2642,7 +2642,7 @@ var gear = {
          "id": 21601
       },
       {
-         "name": "Ring of Fury",
+         "name": "愤怒之戒",
          "hit": 1,
          "sta": 9,
          "ap": 30,
@@ -2651,7 +2651,7 @@ var gear = {
          "id": 21477
       },
       {
-         "name": "Ring of the Godslayer",
+         "name": "屠神者之戒",
          "sta": 17,
          "agi": 27,
          "source": "AQ40",
@@ -2703,7 +2703,7 @@ var gear = {
          "id": 21393
       },
       {
-         "name": "Signet Ring of the Bronze Dragonflight",
+         "name": "青铜龙军团的徽记之戒",
          "hit": 1,
          "sta": 13,
          "agi": 24,
