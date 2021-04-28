@@ -3321,7 +3321,7 @@ var gear = {
          "id": 17016
       },
       {
-         "name": "Deathbringer",
+         "name": "死亡召唤者",
          "mindmg": 114,
          "maxdmg": 213,
          "speed": 2.9,
@@ -4790,7 +4790,7 @@ var gear = {
          "magicdmg": 99
       },
       {
-         "name": "Death's Sting",
+         "name": "死亡之钉",
          "sta": 10,
          "ap": 38,
          "skill": 3,
