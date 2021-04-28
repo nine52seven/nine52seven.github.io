@@ -1354,7 +1354,7 @@ var gear = {
          "id": 15063
       },
       {
-         "name": "Edgemaster's Handguards",
+         "name": "剑师护手",
          "ac": 201,
          "skill": 7,
          "type": "Varied",
@@ -2327,7 +2327,7 @@ var gear = {
          "id": 17713
       },
       {
-         "name": "Circle of Applied Force",
+         "name": "源力之环",
          "str": 12,
          "sta": 9,
          "agi": 22,
@@ -2336,7 +2336,7 @@ var gear = {
          "id": 19432
       },
       {
-         "name": "Don Julio's Band",
+         "name": "胡里奥指环",
          "crit": 1,
          "hit": 1,
          "sta": 11,
@@ -2541,7 +2541,7 @@ var gear = {
          "id": 18522
       },
       {
-         "name": "Band of Unnatural Forces",
+         "name": "超自然能量指环",
          "crit": 1,
          "hit": 1,
          "ap": 52,
@@ -2559,7 +2559,7 @@ var gear = {
          "id": 17713
       },
       {
-         "name": "Circle of Applied Force",
+         "name": "源力之环",
          "str": 12,
          "sta": 9,
          "agi": 22,
@@ -2622,7 +2622,7 @@ var gear = {
          "id": 19514
       },
       {
-         "name": "Quick Strike Ring",
+         "name": "迅击戒指",
          "crit": 1,
          "str": 5,
          "sta": 8,
@@ -2795,7 +2795,7 @@ var gear = {
          "magicdmg": 165,
       },
       {
-         "name": "Jom Gabbar (Used last 20 secs)",
+         "name": "沙虫之毒 (Used last 20 secs)",
          "source": "AQ40",
          "phase": "5",
          "id": 23570,
@@ -2919,7 +2919,7 @@ var gear = {
          "id": 23570,
       },
       {
-         "name": "Kiss of the Spider (Used last 15 secs)",
+         "name": "蜘蛛之吻 (Used last 15 secs)",
          "crit": 1,
          "hit": 1,
          "source": "Naxx",
@@ -3370,7 +3370,7 @@ var gear = {
          "id": 19103
       },
       {
-         "name": "Hatchet of Sundered Bone",
+         "name": "碎裂白骨战斧",
          "crit": 1,
          "ap": 36,
          "mindmg": 119,
@@ -4069,7 +4069,7 @@ var gear = {
          "id": 19104
       },
       {
-         "name": "The Castigator",
+         "name": "谴责者",
          "crit": 1,
          "hit": 1,
          "sta": 9,
@@ -4223,7 +4223,7 @@ var gear = {
          "id": 19968
       },
       {
-         "name": "Gressil, Dawn of Ruin",
+         "name": "格雷希尔，毁灭之黎明",
          "sta": 15,
          "ap": 40,
          "mindmg": 138,
@@ -4235,7 +4235,7 @@ var gear = {
          "id": 23054
       },
       {
-         "name": "Iblis, Blade of the Fallen Seraph",
+         "name": "伊普利斯，堕落炽天使之刃",
          "crit": 1,
          "hit": 1,
          "ap": 26,
@@ -4262,7 +4262,7 @@ var gear = {
          "id": 2244
       },
       {
-         "name": "Maladath, Runed Blade of the Black Flight",
+         "name": "玛拉达斯，黑龙军团的符文之剑",
          "parry": 1,
          "skill": 4,
          "mindmg": 86,
@@ -4568,7 +4568,7 @@ var gear = {
          "id": 18737
       },
       {
-         "name": "Crul'Shorukh, Edge of Chaos",
+         "name": "克鲁索洛克恩，混乱之刃",
          "sta": 13,
          "ap": 36,
          "mindmg": 101,
@@ -5453,7 +5453,7 @@ var gear = {
          "coeff": 1
       },
       {
-         "name": "The Hungering Cold",
+         "name": "饥饿之寒",
          "sta": 14,
          "ac": 140,
          "skill": 6,

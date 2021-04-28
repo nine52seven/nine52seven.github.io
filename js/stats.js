@@ -259,20 +259,20 @@ SIM.STATS = {
     buildTable: function (sim) {
         var view = this;
         view.table.empty();
-        let html = '<table><thead><tr><th>Action</th><th>Hit %</th><th>Crit %</th><th>Miss %</th><th>Dodge %</th><th>Glance %</th><th>Uses</th><th>DPS</th></tr></thead><tbody>';
+        let html = '<table><thead><tr><th>动作</th><th>命中 %</th><th>暴击 %</th><th>未命中 %</th><th>躲闪 %</th><th>偏斜 %</th><th>Uses</th><th>DPS</th></tr></thead><tbody>';
 
 
         let i = sim.iterations;
         let data = sim.player.mh.data;
         let total = data.reduce((a, b) => a + b, 0);
         let dps = (sim.player.mh.totaldmg / sim.totalduration).toFixed(2);
-        html += `<tr><td>Main Hand</td><td>${(data[0] / total * 100).toFixed(2)}</td><td>${(data[3] / total * 100).toFixed(2)}</td><td>${(data[1] / total * 100).toFixed(2)}</td><td>${(data[2] / total * 100).toFixed(2)}</td><td>${(data[4] / total * 100).toFixed(2)}</td><td>${(total / i).toFixed(2)}</td><td>${dps}</td></tr>`;
+        html += `<tr><td>主手</td><td>${(data[0] / total * 100).toFixed(2)}</td><td>${(data[3] / total * 100).toFixed(2)}</td><td>${(data[1] / total * 100).toFixed(2)}</td><td>${(data[2] / total * 100).toFixed(2)}</td><td>${(data[4] / total * 100).toFixed(2)}</td><td>${(total / i).toFixed(2)}</td><td>${dps}</td></tr>`;
 
         if (sim.player.oh) {
             data = sim.player.oh.data;
             total = data.reduce((a, b) => a + b, 0);
             dps = (sim.player.oh.totaldmg / sim.totalduration).toFixed(2);
-            html += `<tr><td>Off Hand</td><td>${(data[0] / total * 100).toFixed(2)}</td><td>${(data[3] / total * 100).toFixed(2)}</td><td>${(data[1] / total * 100).toFixed(2)}</td><td>${(data[2] / total * 100).toFixed(2)}</td><td>${(data[4] / total * 100).toFixed(2)}</td><td>${(total / i).toFixed(2)}</td><td>${dps}</td></tr>`;
+            html += `<tr><td>副手</td><td>${(data[0] / total * 100).toFixed(2)}</td><td>${(data[3] / total * 100).toFixed(2)}</td><td>${(data[1] / total * 100).toFixed(2)}</td><td>${(data[2] / total * 100).toFixed(2)}</td><td>${(data[4] / total * 100).toFixed(2)}</td><td>${(total / i).toFixed(2)}</td><td>${dps}</td></tr>`;
         }
         
         for (let name in sim.player.spells) {

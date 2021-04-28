@@ -169,7 +169,7 @@ var spells = [
 },
 {
     id: 115671,
-    name: 'Heroic Strike (Execute Phase)',
+    name: '英勇打击 (斩杀阶段)',
     classname: 'HeroicStrikeExecute',
     iconname: 'ability_rogue_ambush',
     minrage: 40,
