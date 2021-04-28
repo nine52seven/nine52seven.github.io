@@ -2659,7 +2659,7 @@ var gear = {
          "id": 21596
       },
       {
-         "name": "Ring of the Qiraji Fury",
+         "name": "其拉之怒",
          "crit": 1,
          "sta": 12,
          "ap": 40,
