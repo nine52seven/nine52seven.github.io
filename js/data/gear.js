@@ -1332,7 +1332,7 @@ var gear = {
    ],
    "hands": [
       {
-         "name": "Aged Core Leather Gloves",
+         "name": "古代熔火皮手套",
          "crit": 1,
          "str": 15,
          "sta": 15,
@@ -1405,7 +1405,7 @@ var gear = {
          "id": 16863
       },
       {
-         "name": "Gauntlets of Steadfast Determination",
+         "name": "坚定信念护手",
          "str": 19,
          "sta": 20,
          "agi": 18,
@@ -1457,7 +1457,7 @@ var gear = {
          "id": 16964
       },
       {
-         "name": "Gloves of Enforcement",
+         "name": "强制者手套",
          "hit": 1,
          "str": 28,
          "sta": 6,
@@ -1468,7 +1468,7 @@ var gear = {
          "id": 21672
       },
       {
-         "name": "R12 Plate Gauntlets",
+         "name": "统帅的板甲护手",
          "crit": 1,
          "str": 20,
          "sta": 23,
@@ -1497,7 +1497,7 @@ var gear = {
          "id": 13162
       },
       {
-         "name": "Sacrificial Gauntlets",
+         "name": "祭祀护手",
          "crit": 1,
          "hit": 1,
          "str": 19,
@@ -2082,7 +2082,7 @@ var gear = {
          "id": 21995
       },
       {
-         "name": "Boots of the Fallen Hero",
+         "name": "堕落英雄长靴",
          "hit": 1,
          "str": 20,
          "sta": 22,
@@ -2093,7 +2093,7 @@ var gear = {
          "id": 21688
       },
       {
-         "name": "Boots of the Shadow Flame",
+         "name": "暗影烈焰长靴",
          "hit": 2,
          "sta": 22,
          "ap": 44,
@@ -2113,7 +2113,7 @@ var gear = {
          "id": 21493
       },
       {
-         "name": "Boots of the Unwavering Will",
+         "name": "坚定意志长靴",
          "str": 12,
          "sta": 29,
          "agi": 8,
@@ -2145,7 +2145,7 @@ var gear = {
          "id": 19387
       },
       {
-         "name": "Conqueror's Greaves",
+         "name": "征服者的胫甲",
          "str": 21,
          "sta": 23,
          "agi": 17,
@@ -2722,7 +2722,7 @@ var gear = {
    ],
    "trinket1": [
       {
-         "name": "Zandalarian Hero Medallion (Used last 20 secs)",
+         "name": "赞达拉英雄勋章 (Used last 20 secs)",
          "source": "ZG",
          "phase": "4",
          "id": 19949
@@ -2734,14 +2734,14 @@ var gear = {
          "id": 21670
       },
       {
-         "name": "Blackhand's Breadth",
+         "name": "黑手饰物",
          "crit": 2,
          "source": "Quest",
          "phase": "1",
          "id": 13965
       },
       {
-         "name": "Counterattack Lodestone",
+         "name": "反击磁石",
          "ap": 22,
          "parry": 1,
          "source": "Dungeon",
@@ -2749,125 +2749,7 @@ var gear = {
          "id": 18537
       },
       {
-         "name": "Darkmoon Card: Maelstrom (Assumed 2% proc chance)",
-         "source": "Quest",
-         "phase": "3",
-         "id": 19289,
-         "procchance": 2,
-         "magicdmg": 250,
-      },
-      {
-         "name": "Diamond Flask (Used last 60 secs)",
-         "source": "Quest",
-         "phase": "3",
-         "id": 20130,
-      },
-      {
-         "name": "Drake Fang Talisman",
-         "hit": 2,
-         "ap": 56,
-         "dodge": 1,
-         "source": "BWL",
-         "phase": "3",
-         "id": 19406
-      },
-      {
-         "name": "大地之击 (Used last 20 secs)",
-         "source": "Quest",
-         "phase": "5",
-         "id": 21180,
-      },
-      {
-         "name": "Hand of Justice",
-         "ap": 20,
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 11815,
-         "procextra": 1,
-         "procchance": 2
-      },
-      {
-         "name": "Heart of Wyrmthalak (Assumed 2% proc chance)",
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 22321,
-         "procchance": 2,
-         "magicdmg": 165,
-      },
-      {
-         "name": "沙虫之毒 (Used last 20 secs)",
-         "source": "AQ40",
-         "phase": "5",
-         "id": 23570,
-      },
-      {
-         "name": "蜘蛛之吻 (Used last 15 secs)",
-         "crit": 1,
-         "hit": 1,
-         "source": "Naxx",
-         "phase": "6",
-         "id": 22954,
-      },
-      {
-         "name": "Rune of the Guard Captain",
-         "hit": 1,
-         "ap": 20,
-         "source": "Quest",
-         "phase": "1",
-         "id": 19120
-      },
-      {
-         "name": "Seal of the Dawn (vs Undead)",
-         "ap": 81,
-         "source": "Quest",
-         "phase": "1",
-         "id": 13209
-      },
-      {
-         "name": "屠龙者的纹章 (Used last 20 secs)",
-         "ap": 64,
-         "source": "Naxx",
-         "phase": "6",
-         "id": 23041,
-      },
-      {
-         "name": "勇士印记 (vs Undead)",
-         "ap": 150,
-         "source": "Naxx",
-         "phase": "6",
-         "id": 23206
-      },
-   ],
-   "trinket2": [
-      {
-         "name": "Zandalarian Hero Medallion (Used last 20 secs)",
-         "source": "ZG",
-         "phase": "4",
-         "id": 19949
-      },
-      {
-         "name": "Badge of the Swarmguard (Used last 30 secs / 50% proc chance)",
-         "source": "AQ40",
-         "phase": "5",
-         "id": 21670
-      },
-      {
-         "name": "Blackhand's Breadth",
-         "crit": 2,
-         "source": "Quest",
-         "phase": "1",
-         "id": 13965
-      },
-      {
-         "name": "Counterattack Lodestone",
-         "ap": 22,
-         "parry": 1,
-         "source": "Dungeon",
-         "phase": "2",
-         "id": 18537
-      },
-      {
-         "name": "Darkmoon Card: Maelstrom (Assumed 2% proc chance)",
+         "name": "暗月卡片：漩涡 (Assumed 2% proc chance)",
          "source": "Quest",
          "phase": "3",
          "id": 19289,
@@ -2890,13 +2772,13 @@ var gear = {
          "id": 19406
       },
       {
-         "name": "Earthstrike (Used last 20 secs)",
+         "name": "大地之击 (Used last 20 secs)",
          "source": "Quest",
          "phase": "5",
          "id": 21180,
       },
       {
-         "name": "Hand of Justice",
+         "name": "正义之手",
          "ap": 20,
          "source": "Dungeon",
          "phase": "1",
@@ -2905,7 +2787,7 @@ var gear = {
          "procchance": 2
       },
       {
-         "name": "Heart of Wyrmthalak (Assumed 2% proc chance)",
+         "name": "维姆萨拉克之心 (Assumed 2% proc chance)",
          "source": "Dungeon",
          "phase": "1",
          "id": 22321,
@@ -2927,7 +2809,7 @@ var gear = {
          "id": 22954,
       },
       {
-         "name": "Rune of the Guard Captain",
+         "name": "卫兵队长符文",
          "hit": 1,
          "ap": 20,
          "source": "Quest",
@@ -2935,7 +2817,125 @@ var gear = {
          "id": 19120
       },
       {
-         "name": "Seal of the Dawn (vs Undead)",
+         "name": "黎明之印 (vs Undead)",
+         "ap": 81,
+         "source": "Quest",
+         "phase": "1",
+         "id": 13209
+      },
+      {
+         "name": "屠龙者的纹章 (Used last 20 secs)",
+         "ap": 64,
+         "source": "Naxx",
+         "phase": "6",
+         "id": 23041,
+      },
+      {
+         "name": "勇士印记 (vs Undead)",
+         "ap": 150,
+         "source": "Naxx",
+         "phase": "6",
+         "id": 23206
+      },
+   ],
+   "trinket2": [
+      {
+         "name": "赞达拉英雄勋章 (Used last 20 secs)",
+         "source": "ZG",
+         "phase": "4",
+         "id": 19949
+      },
+      {
+         "name": "虫群卫士徽章 (Used last 30 secs / 50% proc chance)",
+         "source": "AQ40",
+         "phase": "5",
+         "id": 21670
+      },
+      {
+         "name": "黑手饰物",
+         "crit": 2,
+         "source": "Quest",
+         "phase": "1",
+         "id": 13965
+      },
+      {
+         "name": "反击磁石",
+         "ap": 22,
+         "parry": 1,
+         "source": "Dungeon",
+         "phase": "2",
+         "id": 18537
+      },
+      {
+         "name": "暗月卡片：漩涡 (Assumed 2% proc chance)",
+         "source": "Quest",
+         "phase": "3",
+         "id": 19289,
+         "procchance": 2,
+         "magicdmg": 250,
+      },
+      {
+         "name": "钻石水瓶 (Used last 60 secs)",
+         "source": "Quest",
+         "phase": "3",
+         "id": 20130,
+      },
+      {
+         "name": "龙牙饰物",
+         "hit": 2,
+         "ap": 56,
+         "dodge": 1,
+         "source": "BWL",
+         "phase": "3",
+         "id": 19406
+      },
+      {
+         "name": "大地之击 (Used last 20 secs)",
+         "source": "Quest",
+         "phase": "5",
+         "id": 21180,
+      },
+      {
+         "name": "正义之手",
+         "ap": 20,
+         "source": "Dungeon",
+         "phase": "1",
+         "id": 11815,
+         "procextra": 1,
+         "procchance": 2
+      },
+      {
+         "name": "维姆萨拉克之心 (Assumed 2% proc chance)",
+         "source": "Dungeon",
+         "phase": "1",
+         "id": 22321,
+         "procchance": 2,
+         "magicdmg": 165,
+      },
+      {
+         "name": "沙虫之毒 (Used last 20 secs)",
+         "source": "AQ40",
+         "phase": "5",
+         "id": 23570,
+      },
+      {
+         "name": "蜘蛛之吻 (Used last 15 secs)",
+         "crit": 1,
+         "hit": 1,
+         "source": "Naxx",
+         "phase": "6",
+         "id": 22954,
+      },
+      {
+         "name": "卫兵队长符文",
+         "hit": 1,
+         "ap": 20,
+         "source": "Quest",
+         "phase": "1",
+         "id": 19120
+      },
+      {
+         "name": "黎明之印 (vs Undead)",
          "ap": 81,
          "source": "Quest",
          "phase": "1",
@@ -2951,21 +2951,21 @@ var gear = {
    ],
    "ranged": [
       {
-         "name": "Ancient Bone Bow",
+         "name": "上古骨弓",
          "agi": 11,
          "source": "Dungeon",
          "phase": "1",
          "id": 18680
       },
       {
-         "name": "Bow of Taut Sinew",
+         "name": "紧绷肌腱之弓",
          "ap": 22,
          "source": "AQ20",
          "phase": "5",
          "id": 21478
       },
       {
-         "name": "Gorewood Bow",
+         "name": "血木猎弓",
          "str": 2,
          "sta": 9,
          "agi": 3,
@@ -2974,7 +2974,7 @@ var gear = {
          "id": 16996
       },
       {
-         "name": "Heartstriker",
+         "name": "击心者",
          "sta": 9,
          "ap": 24,
          "source": "BWL",
@@ -2982,7 +2982,7 @@ var gear = {
          "id": 19350
       },
       {
-         "name": "Hoodoo Hunting Bow",
+         "name": "噩运猎弓",
          "sta": 4,
          "agi": 10,
          "source": "ZG",
@@ -2997,7 +2997,7 @@ var gear = {
          "id": 21616
       },
       {
-         "name": "Malgen's Long Bow",
+         "name": "玛尔根的长弓",
          "sta": 4,
          "ap": 20,
          "source": "Other",
@@ -3005,7 +3005,7 @@ var gear = {
          "id": 22318
       },
       {
-         "name": "Mandokir's Sting",
+         "name": "曼多基尔之刺",
          "sta": 8,
          "agi": 11,
          "source": "ZG",
@@ -3030,14 +3030,14 @@ var gear = {
          "id": 19562
       },
       {
-         "name": "Riphook",
+         "name": "撕裂之钩",
          "ap": 22,
          "source": "Dungeon",
          "phase": "1",
          "id": 12653
       },
       {
-         "name": "Satyr's Bow",
+         "name": "萨特强弓",
          "hit": 1,
          "agi": 3,
          "source": "Dungeon",
@@ -3053,7 +3053,7 @@ var gear = {
          "id": 17069
       },
       {
-         "name": "Blackcrow",
+         "name": "黑鸦",
          "hit": 1,
          "agi": 3,
          "source": "Dungeon",
@@ -3061,7 +3061,7 @@ var gear = {
          "id": 12651
       },
       {
-         "name": "Bloodseeker",
+         "name": "觅血者",
          "str": 8,
          "agi": 7,
          "source": "PVP",
@@ -3069,7 +3069,7 @@ var gear = {
          "id": 19107
       },
       {
-         "name": "Carapace Spine Crossbow",
+         "name": "虫壳强弩",
          "sta": 9,
          "agi": 4,
          "source": "Dungeon",
@@ -3077,7 +3077,7 @@ var gear = {
          "id": 18738
       },
       {
-         "name": "Crossbow of Imminent Doom",
+         "name": "迫近末日之弩",
          "hit": 1,
          "str": 5,
          "sta": 5,
@@ -3087,7 +3087,7 @@ var gear = {
          "id": 21459
       },
       {
-         "name": "Fahrad's Reloading Repeater",
+         "name": "法拉德的装填器",
          "hit": 1,
          "agi": 4,
          "source": "Quest",
@@ -3095,7 +3095,7 @@ var gear = {
          "id": 22347
       },
       {
-         "name": "Heartseeking Crossbow",
+         "name": "觅心弩",
          "sta": 4,
          "agi": 9,
          "source": "Other",
@@ -3103,7 +3103,7 @@ var gear = {
          "id": 13040
       },
       {
-         "name": "Nerubian Slavemaker",
+         "name": "蛛魔制奴者",
          "crit": 1,
          "ap": 24,
          "source": "Naxx",
@@ -3111,7 +3111,7 @@ var gear = {
          "id": 22812
       },
       {
-         "name": "Polished Ironwood Crossbow",
+         "name": "抛光铁木强弩",
          "sta": 5,
          "ap": 24,
          "source": "Emeriss",
@@ -3119,7 +3119,7 @@ var gear = {
          "id": 20599
       },
       {
-         "name": "Skull Splitting Crossbow",
+         "name": "碎颅强弩",
          "str": 3,
          "ap": 14,
          "source": "Other",
