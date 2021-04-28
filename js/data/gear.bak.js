@@ -64,6 +64,28 @@ var gear = {
          "id": 9375
       },
       {
+         "name": "Fury Visor",
+         "crit": 1,
+         "hit": 1,
+         "str": 18,
+         "ac": 445,
+         "source": "Quest",
+         "phase": 3,
+         "id": 20521
+      },
+      {
+         "name": "Helm of Domination",
+         "str": 21,
+         "sta": 28,
+         "agi": 11,
+         "parry": 1,
+         "defense": 7,
+         "ac": 661,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21460
+      },
+      {
          "name": "无尽怒气头盔",
          "str": 26,
          "sta": 29,
@@ -72,6 +94,57 @@ var gear = {
          "source": "BWL",
          "phase": 3,
          "id": 19372
+      },
+      {
+         "name": "Helm of Heroism",
+         "crit": 1,
+         "str": 18,
+         "sta": 32,
+         "ac": 556,
+         "source": "Quest",
+         "phase": 5,
+         "id": 21999
+      },
+      {
+         "name": "Helm of Might",
+         "str": 15,
+         "sta": 35,
+         "dodge": 1,
+         "defense": 7,
+         "ac": 608,
+         "source": "MC",
+         "phase": 1,
+         "id": 16866
+      },
+      {
+         "name": "Helm of the Executioner",
+         "hit": 2,
+         "str": 14,
+         "sta": 20,
+         "ac": 534,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 22411
+      },
+      {
+         "name": "Helm of Valor",
+         "str": 15,
+         "sta": 23,
+         "agi": 9,
+         "ac": 526,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 16731
+      },
+      {
+         "name": "Helm of Wrath",
+         "str": 17,
+         "sta": 40,
+         "defense": 11,
+         "ac": 696,
+         "source": "Onyxia",
+         "phase": 1,
+         "id": 16963
       },
       {
          "name": "狮心头盔",
@@ -83,8 +156,89 @@ var gear = {
          "phase": 1,
          "id": 12640
       },
+      {
+         "name": "Mask of the Unforgiven",
+         "crit": 1,
+         "hit": 2,
+         "sta": 12,
+         "ac": 123,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 13404
+      },
+      {
+         "name": "R10 Plate Helm",
+         "crit": 1,
+         "hit": 1,
+         "str": 21,
+         "sta": 24,
+         "ac": 598,
+         "source": "PVP",
+         "phase": 2,
+         "id": 23314
+      },
+      {
+         "name": "R13 Plate Helm",
+         "crit": 1,
+         "str": 28,
+         "sta": 34,
+         "ac": 719,
+         "source": "PVP",
+         "phase": 2,
+         "id": 16478
+      },
+      {
+         "name": "Foror's Eyepatch",
+         "crit": 2,
+         "sta": 19,
+         "ap": 44,
+         "ac": 160,
+         "source": "ZG",
+         "phase": 3,
+         "id": 19945
+      },
+      {
+         "name": "Blooddrenched Mask",
+         "hit": 2,
+         "agi": 22,
+         "sta": 17,
+         "ac": 153,
+         "source": "ZG",
+         "phase": 4,
+         "id": 22718
+      },
+      {
+         "name": "Southwind Helm",
+         "hit": 1,
+         "str": 21,
+         "sta": 14,
+         "agi": 24,
+         "ac": 164,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21455
+      },
+      {
+         "name": "Ragefury Eyepatch",
+         "crit": 2,
+         "str": 6,
+         "sta": 9,
+         "ac": 132,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 11735
+      }
    ],
    "neck": [
+      {
+         "name": "Amulet of the Darkmoon",
+         "str": 10,
+         "sta": 10,
+         "agi": 19,
+         "source": "Quest",
+         "phase": 3,
+         "id": 19491
+      },
       {
          "name": "尖刺颈饰",
          "crit": 1,
@@ -95,6 +249,67 @@ var gear = {
          "id": 21664
       },
       {
+         "name": "Beads of Ogre Might",
+         "hit": 1,
+         "sta": 7,
+         "ap": 24,
+         "source": "Quest",
+         "phase": 5,
+         "id": 22150
+      },
+      {
+         "name": "Blazefury Medallion",
+         "sta": 13,
+         "agi": 14,
+         "source": "Kazzak",
+         "phase": 2,
+         "id": 17111,
+         "procchance": 100,
+         "magicdmg": 3,
+      },
+      {
+         "name": "Choker of the Shifting Sands",
+         "sta": 16,
+         "ap": 42,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21505
+      },
+      {
+         "name": "Eskhandar's Collar",
+         "crit": 1,
+         "sta": 17,
+         "dodge": 1,
+         "source": "Onyxia",
+         "phase": 1,
+         "id": 18205
+      },
+      {
+         "name": "Fury of the Forgotten Swarm",
+         "crit": 1,
+         "hit": 1,
+         "str": 8,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21809
+      },
+      {
+         "name": "Imperial Jewel",
+         "sta": 7,
+         "ap": 32,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 11933
+      },
+      {
+         "name": "Mark of Fordring",
+         "crit": 1,
+         "ap": 26,
+         "source": "Quest",
+         "phase": 1,
+         "id": 15411
+      },
+      {
          "name": "奥妮克希亚龙牙坠饰",
          "crit": 1,
          "hit": 1,
@@ -103,6 +318,14 @@ var gear = {
          "source": "Onyxia",
          "phase": 1,
          "id": 18404
+      },
+      {
+         "name": "Pendant of Celerity",
+         "hit": 1,
+         "agi": 15,
+         "source": "Dungeon",
+         "phase": 5,
+         "id": 22340
       },
       {
          "name": "普瑞斯托的阴谋饰物",
@@ -139,7 +362,58 @@ var gear = {
          "id": 19856
       },
       {
-         "name": "其拉守护者坠饰",
+         "name": "Will of the Martyr",
+         "sta": 10,
+         "ap": 30,
+         "source": "Quest",
+         "phase": 1,
+         "id": 17044
+      },
+      {
+         "name": "Strength of Mugamba (Friendly)",
+         "str": 7,
+         "sta": 10,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19574
+      },
+      {
+         "name": "Strength of Mugamba (Honored)",
+         "str": 7,
+         "sta": 10,
+         "agi": 6,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19575
+      },
+      {
+         "name": "Strength of Mugamba (Revered)",
+         "str": 8,
+         "sta": 13,
+         "agi": 8,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19576
+      },
+      {
+         "name": "Rage of Mugamba",
+         "str": 8,
+         "sta": 13,
+         "agi": 8,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19577
+      },
+      {
+         "name": "Emberfury Talisman",
+         "crit": 1,
+         "sta": 8,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 12929
+      },
+      {
+         "name": "Pendant of the Qiraji Guardian",
          "sta": 17,
          "str": 12,
          "agi": 11,
@@ -150,6 +424,68 @@ var gear = {
       }
    ],
    "shoulder": [
+      {
+         "name": "Flamescarred Shoulders",
+         "str": 12,
+         "sta": 11,
+         "agi": 12,
+         "ac": 131,
+         "source": "Dungeon",
+         "phase": 2,
+         "id": 18374,
+      },
+      {
+         "name": "Abyssal Plate Epaulets",
+         "hit": 1,
+         "str": 13,
+         "sta": 13,
+         "agi": 13,
+         "ac": 530,
+         "source": "Other",
+         "phase": 4,
+         "id": 20683,
+         "rand": 2158,
+      },
+      {
+         "name": "Arathi Plate Spaulders",
+         "str": 18,
+         "sta": 20,
+         "agi": 17,
+         "ac": 553,
+         "source": "PVP",
+         "phase": 4,
+         "id": 20212
+      },
+      {
+         "name": "Black Dragonscale Shoulders",
+         "sta": 9,
+         "ap": 40,
+         "ac": 266,
+         "source": "Crafting",
+         "phase": 1,
+         "id": 15051
+      },
+      {
+         "name": "Bloodsoaked Pauldrons",
+         "str": 16,
+         "sta": 16,
+         "agi": 11,
+         "defense": 3,
+         "ac": 552,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19878
+      },
+      {
+         "name": "Chitinous Shoulderguards",
+         "str": 11,
+         "sta": 7,
+         "agi": 25,
+         "ac": 151,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21474
+      },
       {
          "name": "征服者的肩铠",
          "hit": 1,
@@ -163,7 +499,7 @@ var gear = {
          "id": 21330
       },
       {
-         "name": "龙爪肩铠",
+         "name": "Drake Talon Pauldrons",
          "str": 20,
          "sta": 17,
          "agi": 20,
@@ -174,7 +510,7 @@ var gear = {
          "id": 19394,
       },
       {
-         "name": "无畏肩铠",
+         "name": "Dreadnaught Pauldrons",
          "hit": 1,
          "str": 16,
          "sta": 29,
@@ -185,7 +521,48 @@ var gear = {
          "id": 22419
       },
       {
-         "name": "少校的板甲护肩",
+         "name": "Pauldrons of Might",
+         "str": 15,
+         "sta": 22,
+         "defense": 5,
+         "ac": 562,
+         "source": "MC",
+         "phase": 1,
+         "id": 16868
+      },
+      {
+         "name": "Pauldrons of the Unrelenting",
+         "str": 11,
+         "sta": 30,
+         "dodge": 1,
+         "defense": 9,
+         "ac": 650,
+         "source": "AQ40",
+         "phase": 5,
+         "id": 21639
+      },
+      {
+         "name": "Pauldrons of Wrath",
+         "str": 13,
+         "sta": 27,
+         "defense": 7,
+         "ac": 642,
+         "source": "BWL",
+         "phase": 3,
+         "id": 16961
+      },
+      {
+         "name": "Polished Obsidian Pauldrons",
+         "str": 16,
+         "sta": 17,
+         "defense": 7,
+         "ac": 530,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21805
+      },
+      {
+         "name": "R10 Plate Shoulders",
          "crit": 1,
          "str": 17,
          "sta": 18,
@@ -195,7 +572,7 @@ var gear = {
          "id": 23315
       },
       {
-         "name": "元帅的板甲护肩",
+         "name": "R13 Plate Shoulders",
          "hit": 1,
          "str": 18,
          "sta": 23,
@@ -206,7 +583,55 @@ var gear = {
          "id": 16480
       },
       {
-         "name": "邪恶复仇衬肩",
+         "name": "Razorsteel Shoulders",
+         "hit": 1,
+         "str": 10,
+         "sta": 9,
+         "agi": 10,
+         "ac": 410,
+         "source": "Quest",
+         "phase": 3,
+         "id": 20517
+      },
+      {
+         "name": "Spaulders of Heroism",
+         "str": 12,
+         "sta": 18,
+         "agi": 12,
+         "ac": 507,
+         "source": "Quest",
+         "phase": 5,
+         "id": 22001
+      },
+      {
+         "name": "Spaulders of Valor",
+         "str": 11,
+         "sta": 17,
+         "agi": 9,
+         "ac": 470,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 16733
+      },
+      {
+         "name": "Truestrike Shoulders",
+         "hit": 2,
+         "ap": 24,
+         "ac": 129,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 12927
+      },
+      {
+         "name": "Wyrmhide Spaulders",
+         "hit": 2,
+         "ac": 113,
+         "source": "Quest",
+         "phase": 1,
+         "id": 12082
+      },
+      {
+         "name": "Mantle of Wicked Revenge",
          "str": 16,
          "agi": 30,
          "sta": 14,
@@ -215,10 +640,19 @@ var gear = {
          "phase": 5,
          "id": 21665
       },
+      {
+         "name": "Darksoul Shoulders",
+         "hit": 1,
+         "sta": 24,
+         "ac": 507,
+         "source": "Crafting",
+         "phase": 4,
+         "id": 19695
+      }
    ],
    "back": [
       {
-         "name": "火喉披风",
+         "name": "Cloak of Firemaw",
          "ap": 50,
          "sta": 12,
          "ac": 57,
@@ -227,7 +661,7 @@ var gear = {
          "id": 19398
       },
       {
-         "name": "黑爵士的斗篷",
+         "name": "Cape of the Black Baron",
          "agi": 15,
          "ap": 20,
          "ac": 45,
@@ -247,7 +681,7 @@ var gear = {
          "id": 21701
       },
       {
-         "name": "飞龙披风",
+         "name": "Cloak of Draconic Might",
          "str": 16,
          "sta": 4,
          "agi": 16,
@@ -267,7 +701,7 @@ var gear = {
          "id": 21710
       },
       {
-         "name": "金巢披风",
+         "name": "Cloak of the Golden Hive",
          "str": 13,
          "sta": 19,
          "agi": 10,
@@ -278,7 +712,7 @@ var gear = {
          "id": 21621
       },
       {
-         "name": "荣誉卫士披风",
+         "name": "Cloak of the Honor Guard",
          "sta": 11,
          "agi": 5,
          "ap": 34,
@@ -288,7 +722,7 @@ var gear = {
          "id": 20073
       },
       {
-         "name": "天灾披风",
+         "name": "Cloak of the Scourge",
          "hit": 1,
          "sta": 23,
          "ap": 30,
@@ -298,13 +732,22 @@ var gear = {
          "id": 23030
       },
       {
-         "name": "环雾披风",
+         "name": "Cloak of the Shrouded Mists",
          "sta": 12,
          "agi": 22,
          "ac": 57,
          "source": "MC",
          "phase": 1,
          "id": 17102
+      },
+      {
+         "name": "Dragon's Blood Cape",
+         "str": 9,
+         "sta": 22,
+         "ac": 116,
+         "source": "MC",
+         "phase": 1,
+         "id": 17107
       },
       {
          "name": "坚定力量披风",
@@ -318,7 +761,16 @@ var gear = {
          "id": 21394
       },
       {
-         "name": "艾斯卡达尔的毛皮",
+         "name": "Earthweave Cloak",
+         "hit": 1,
+         "agi": 15,
+         "ac": 44,
+         "source": "Quest",
+         "phase": 5,
+         "id": 21187
+      },
+      {
+         "name": "Eskhandar's Pelt",
          "crit": 1,
          "sta": 20,
          "ac": 51,
@@ -327,7 +779,16 @@ var gear = {
          "id": 18204
       },
       {
-         "name": "强者斗篷",
+         "name": "Phantasmal Cloak",
+         "str": 12,
+         "sta": 11,
+         "ac": 114,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 18689
+      },
+      {
+         "name": "Puissant Cape",
          "hit": 1,
          "sta": 12,
          "ap": 40,
@@ -335,6 +796,17 @@ var gear = {
          "source": "Azuregos",
          "phase": 2,
          "id": 18541
+      },
+      {
+         "name": "Sandstorm Cloak",
+         "str": 12,
+         "sta": 12,
+         "dodge": 1,
+         "defense": 6,
+         "ac": 135,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21456
       },
       {
          "name": "支配披风",
@@ -346,17 +818,27 @@ var gear = {
          "phase": 6,
          "id": 23045
       },
-      // {
-      //    "name": "Stormpike Soldier's Cloak",
-      //    "sta": 11,
-      //    "ap": 24,
-      //    "ac": 43,
-      //    "source": "PVP",
-      //    "phase": 2,
-      //    "id": 19084
-      // },
       {
-         "name": "祖利安虎皮披风",
+         "name": "Stoneskin Gargoyle Cape",
+         "str": 7,
+         "sta": 14,
+         "agi": 8,
+         "ac": 43,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 13397
+      },
+      {
+         "name": "Stormpike Soldier's Cloak",
+         "sta": 11,
+         "ap": 24,
+         "ac": 43,
+         "source": "PVP",
+         "phase": 2,
+         "id": 19084
+      },
+      {
+         "name": "Zulian Tigerhide Cloak",
          "hit": 1,
          "sta": 10,
          "agi": 13,
@@ -366,7 +848,7 @@ var gear = {
          "id": 19907
       },
       {
-         "name": "风矛斗篷",
+         "name": "Windshear Cape",
          "str": 8,
          "sta": 14,
          "agi": 15,
@@ -376,7 +858,7 @@ var gear = {
          "id": 20691
       },
       {
-         "name": "部族之力",
+         "name": "Might of the Tribe",
          "sta": 18,
          "ap": 28,
          "ac": 48,
@@ -385,7 +867,7 @@ var gear = {
          "id": 22712
       },
       {
-         "name": "移形披风",
+         "name": "Shifting Cloak",
          "sta": 8,
          "agi": 17,
          "dodge": 1,
@@ -396,7 +878,16 @@ var gear = {
    ],
    "chest": [
       {
-         "name": "血魂胸甲",
+         "name": "Black Dragonscale Breastplate",
+         "sta": 8,
+         "ap": 50,
+         "ac": 344,
+         "source": "Crafting",
+         "phase": 1,
+         "id": 15050
+      },
+      {
+         "name": "Bloodsoul Breastplate",
          "crit": 2,
          "sta": 13,
          "agi": 9,
@@ -417,7 +908,7 @@ var gear = {
          "id": 21814
       },
       {
-         "name": "嗜血胸甲",
+         "name": "Breastplate of Bloodthirst",
          "crit": 2,
          "str": 13,
          "sta": 20,
@@ -428,7 +919,7 @@ var gear = {
          "id": 12757
       },
       {
-         "name": "英勇胸甲",
+         "name": "Breastplate of Heroism",
          "hit": 1,
          "str": 21,
          "sta": 26,
@@ -439,7 +930,17 @@ var gear = {
          "id": 21997
       },
       {
-         "name": "多彩巨龙胸甲",
+         "name": "Breastplate of Might",
+         "str": 20,
+         "sta": 28,
+         "defense": 7,
+         "ac": 749,
+         "source": "MC",
+         "phase": 1,
+         "id": 16865
+      },
+      {
+         "name": "Breastplate of the Chromatic Flight",
          "str": 20,
          "sta": 30,
          "agi": 10,
@@ -447,6 +948,45 @@ var gear = {
          "source": "Quest",
          "phase": 1,
          "id": 12895
+      },
+      {
+         "name": "Breastplate of Valor",
+         "str": 15,
+         "sta": 24,
+         "agi": 10,
+         "ac": 657,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 16730
+      },
+      {
+         "name": "Breastplate of Undead Slaying (vs Undead)",
+         "sta": 20,
+         "ac": 657,
+         "ap": 81,
+         "source": "Other",
+         "phase": 6,
+         "id": 23087
+      },
+      {
+         "name": "Breastplate of Wrath",
+         "str": 17,
+         "sta": 40,
+         "defense": 11,
+         "ac": 857,
+         "source": "BWL",
+         "phase": 3,
+         "id": 16966
+      },
+      {
+         "name": "Cadaverous Armor",
+         "str": 8,
+         "agi": 8,
+         "ap": 60,
+         "ac": 172,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 14637
       },
       {
          "name": "征服者的胸甲",
@@ -460,6 +1000,16 @@ var gear = {
          "id": 21331
       },
       {
+         "name": "Deathdealer Breastplate",
+         "crit": 2,
+         "str": 8,
+         "sta": 8,
+         "ac": 338,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 11926
+      },
+      {
          "name": "食尸鬼皮外套",
          "crit": 2,
          "str": 40,
@@ -468,6 +1018,35 @@ var gear = {
          "source": "Naxx",
          "phase": 6,
          "id": 23226
+      },
+      {
+         "name": "Malfurion's Blessed Bulwark",
+         "str": 40,
+         "sta": 22,
+         "ac": 814,
+         "source": "BWL",
+         "phase": 3,
+         "id": 19405
+      },
+      {
+         "name": "Obsidian Mail Tunic",
+         "crit": 1,
+         "ap": 76,
+         "ac": 311,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 22191
+      },
+      {
+         "name": "Ogre Forged Hauberk",
+         "crit": 1,
+         "str": 8,
+         "sta": 13,
+         "agi": 20,
+         "ac": 365,
+         "source": "Dungeon",
+         "phase": 2,
+         "id": 18530
       },
       {
          "name": "钉板憎恶胸骨",
@@ -481,7 +1060,70 @@ var gear = {
          "id": 23000
       },
       {
-         "name": "处决者的外衣",
+         "name": "R13 Plate Armor",
+         "crit": 1,
+         "str": 16,
+         "sta": 33,
+         "agi": 14,
+         "ac": 875,
+         "source": "PVP",
+         "phase": 2,
+         "id": 16477
+      },
+      {
+         "name": "R8 Plate Armor",
+         "crit": 1,
+         "str": 21,
+         "sta": 23,
+         "ac": 706,
+         "source": "PVP",
+         "phase": 2,
+         "id": 23300
+      },
+      {
+         "name": "Runed Bloodstained Hauberk",
+         "crit": 1,
+         "sta": 19,
+         "ap": 58,
+         "ac": 416,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19904
+      },
+      {
+         "name": "Savage Gladiator Chain",
+         "crit": 2,
+         "str": 13,
+         "sta": 13,
+         "agi": 14,
+         "ac": 369,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 11726
+      },
+      {
+         "name": "Zandalar Vindicator's Breastplate",
+         "str": 23,
+         "sta": 24,
+         "agi": 15,
+         "defense": 4,
+         "ac": 828,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19822
+      },
+      {
+         "name": "Tombstone Breastplate",
+         "crit": 2,
+         "str": 10,
+         "sta": 10,
+         "ac": 174,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 13944
+      },
+      {
+         "name": "Vest of Swift Execution",
          "str": 21,
          "sta": 20,
          "agi": 41,
@@ -490,8 +1132,56 @@ var gear = {
          "phase": 5,
          "id": 21680
       },
+      {
+         "name": "Darksoul Breastplate",
+         "hit": 1,
+         "sta": 32,
+         "ac": 736,
+         "source": "Crafting",
+         "phase": 4,
+         "id": 19693
+      }
    ],
    "wrist": [
+      {
+         "name": "Abyssal Plate Vambraces",
+         "str": 11,
+         "sta": 12,
+         "agi": 11,
+         "ac": 309,
+         "source": "Other",
+         "phase": "4",
+         "id": 20687,
+         "rand": 2163,
+      },
+      {
+         "name": "Battleborn Armbraces",
+         "crit": 1,
+         "hit": 1,
+         "ac": 287,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 12936
+      },
+      {
+         "name": "Berserker Bracers",
+         "str": 19,
+         "sta": 11,
+         "agi": 8,
+         "ac": 323,
+         "source": "PVP",
+         "phase": 3,
+         "id": 19578
+      },
+      {
+         "name": "Bracelets of Wrath",
+         "str": 13,
+         "sta": 27,
+         "ac": 375,
+         "source": "BWL",
+         "phase": 2,
+         "id": 16959
+      },
       {
          "name": "野蛮护腕",
          "str": 21,
@@ -503,6 +1193,64 @@ var gear = {
          "id": 21457
       },
       {
+         "name": "Bracers of Heroism",
+         "str": 9,
+         "sta": 14,
+         "agi": 5,
+         "defense": 3,
+         "ac": 296,
+         "source": "Quest",
+         "phase": 5,
+         "id": 21996
+      },
+      {
+         "name": "Bracers of Might",
+         "str": 11,
+         "sta": 23,
+         "ac": 328,
+         "source": "MC",
+         "phase": 1,
+         "id": 16861
+      },
+      {
+         "name": "Bracers of Undead Slaying (vs Undead)",
+         "sta": 10,
+         "ac": 287,
+         "ap": 45,
+         "source": "Other",
+         "phase": 6,
+         "id": 23090
+      },
+      {
+         "name": "Bracers of Valor",
+         "str": 7,
+         "sta": 14,
+         "agi": 3,
+         "ac": 261,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 16735
+      },
+      {
+         "name": "Deeprock Bracers",
+         "str": 19,
+         "sta": 8,
+         "agi": 10,
+         "ac": 309,
+         "source": "Quest",
+         "phase": 5,
+         "id": 21184
+      },
+      {
+         "name": "Gordok Bracers of Power",
+         "str": 17,
+         "sta": 7,
+         "ac": 287,
+         "source": "Dungeon",
+         "phase": 2,
+         "id": 18533
+      },
+      {
          "name": "虫巢污染者护腕",
          "str": 23,
          "agi": 18,
@@ -512,7 +1260,7 @@ var gear = {
          "id": 21618
       },
       {
-         "name": "其拉死刑护腕",
+         "name": "Qiraji Execution Bracers",
          "hit": 1,
          "str": 15,
          "sta": 14,
@@ -523,7 +1271,17 @@ var gear = {
          "id": 21602
       },
       {
-         "name": "赞达拉辩护者护臂",
+         "name": "Scaled Bracers of the Gorger",
+         "str": 10,
+         "sta": 8,
+         "agi": 15,
+         "ac": 87,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21491
+      },
+      {
+         "name": "Zandalar Vindicator's Armguards",
          "str": 13,
          "sta": 13,
          "agi": 13,
@@ -533,7 +1291,17 @@ var gear = {
          "id": 19824
       },
       {
-         "name": "稳固护腕",
+         "name": "Vambraces of the Sadist",
+         "crit": 1,
+         "str": 6,
+         "sta": 7,
+         "ac": 270,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 13400
+      },
+      {
+         "name": "Wristguards of Stability",
          "str": 24,
          "sta": 8,
          "ac": 86,
@@ -542,7 +1310,7 @@ var gear = {
          "id": 19146
       },
       {
-         "name": "真龙护腕",
+         "name": "Wristguards of True Flight",
          "hit": 1,
          "sta": 11,
          "agi": 19,
@@ -576,7 +1344,7 @@ var gear = {
          "id": 18823
       },
       {
-         "name": "魔暴龙皮手套",
+         "name": "Devilsaur Gauntlets",
          "crit": 1,
          "sta": 9,
          "ap": 28,
@@ -616,7 +1384,7 @@ var gear = {
          "id": 21581
       },
       {
-         "name": "英勇护手",
+         "name": "Gauntlets of Heroism",
          "crit": 1,
          "str": 18,
          "sta": 12,
@@ -624,6 +1392,17 @@ var gear = {
          "source": "Quest",
          "phase": 5,
          "id": 21998
+      },
+      {
+         "name": "Gauntlets of Might",
+         "hit": 1,
+         "str": 22,
+         "sta": 17,
+         "defense": 5,
+         "ac": 468,
+         "source": "MC",
+         "phase": 1,
+         "id": 16863
       },
       {
          "name": "坚定信念护手",
@@ -635,6 +1414,47 @@ var gear = {
          "source": "AQ40",
          "phase": 5,
          "id": 21674
+      },
+      {
+         "name": "Gauntlets of the Immovable",
+         "str": 15,
+         "sta": 18,
+         "parry": 1,
+         "defense": 5,
+         "ac": 482,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21479
+      },
+      {
+         "name": "Gauntlets of Undead Slaying (vs Undead)",
+         "sta": 15,
+         "ac": 410,
+         "ap": 60,
+         "source": "Quest",
+         "phase": 6,
+         "id": 23078
+      },
+      {
+         "name": "Gauntlets of Valor",
+         "str": 17,
+         "sta": 10,
+         "agi": 3,
+         "ac": 386,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 16737
+      },
+      {
+         "name": "Gauntlets of Wrath",
+         "str": 15,
+         "sta": 20,
+         "parry": 1,
+         "defense": 7,
+         "ac": 535,
+         "source": "BWL",
+         "phase": 3,
+         "id": 16964
       },
       {
          "name": "强制者手套",
@@ -658,6 +1478,25 @@ var gear = {
          "id": 16484
       },
       {
+         "name": "R7 Gauntlets",
+         "str": 17,
+         "sta": 17,
+         "ac": 429,
+         "source": "PVP",
+         "phase": 2,
+         "id": 23286
+      },
+      {
+         "name": "Reiver Claws",
+         "crit": 1,
+         "str": 9,
+         "sta": 15,
+         "ac": 398,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 13162
+      },
+      {
          "name": "祭祀护手",
          "crit": 1,
          "hit": 1,
@@ -668,7 +1507,7 @@ var gear = {
          "id": 22714
       },
       {
-         "name": "要塞护手",
+         "name": "Stronghold Gauntlets",
          "crit": 1,
          "sta": 12,
          "parry": 1,
@@ -677,8 +1516,59 @@ var gear = {
          "phase": 1,
          "id": 12639
       },
+      {
+         "name": "Voone's Vice Grips",
+         "hit": 2,
+         "sta": 6,
+         "agi": 9,
+         "ac": 221,
+         "source": "Quest",
+         "phase": 1,
+         "id": 13963
+      },
+      {
+         "name": "Chromatic Gauntlets",
+         "crit": 1,
+         "ap": 44,
+         "ac": 279,
+         "source": "Crafting",
+         "phase": 3,
+         "id": 19157
+      }
    ],
    "waist": [
+      {
+         "name": "Arathi Plate Girdle",
+         "crit": 1,
+         "str": 17,
+         "sta": 10,
+         "ac": 369,
+         "source": "PVP",
+         "phase": 2,
+         "id": 20204
+      },
+      {
+         "name": "Belt of Heroism",
+         "str": 15,
+         "sta": 12,
+         "agi": 9,
+         "defense": 7,
+         "ac": 380,
+         "source": "Quest",
+         "phase": 5,
+         "id": 21994
+      },
+      {
+         "name": "Belt of Might",
+         "str": 21,
+         "sta": 15,
+         "dodge": 1,
+         "defense": 5,
+         "ac": 412,
+         "source": "MC",
+         "phase": 1,
+         "id": 16864
+      },
       {
          "name": "无尽痛苦腰带",
          "crit": 1,
@@ -691,7 +1581,7 @@ var gear = {
          "id": 21586
       },
       {
-         "name": "防腐头颅腰带",
+         "name": "Belt of Preserved Heads",
          "hit": 1,
          "str": 14,
          "sta": 11,
@@ -702,7 +1592,37 @@ var gear = {
          "id": 20216
       },
       {
-         "name": "黑龙束带",
+         "name": "Belt of Shrunken Heads",
+         "str": 23,
+         "sta": 11,
+         "agi": 7,
+         "ac": 408,
+         "source": "ZG",
+         "phase": 4,
+         "id": 20213
+      },
+      {
+         "name": "Belt of the Sand Reaver",
+         "str": 17,
+         "sta": 18,
+         "defense": 5,
+         "ac": 494,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21503
+      },
+      {
+         "name": "Belt of Valor",
+         "str": 14,
+         "sta": 8,
+         "agi": 7,
+         "ac": 341,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 16736
+      },
+      {
+         "name": "Brigam Girdle",
          "hit": 1,
          "str": 15,
          "sta": 16,
@@ -724,6 +1644,37 @@ var gear = {
          "id": 23219
       },
       {
+         "name": "Mugger's Belt",
+         "crit": 1,
+         "sta": 16,
+         "ac": 98,
+         "skill": 5,
+         "type": "Dagger",
+         "source": "Dungeon",
+         "phase": 2,
+         "id": 18505
+      },
+      {
+         "name": "Omokk's Girth Restrainer",
+         "crit": 1,
+         "str": 15,
+         "sta": 9,
+         "ac": 353,
+         "source": "Quest",
+         "phase": 1,
+         "id": 13959
+      },
+      {
+         "name": "Frostwolf Plate Belt",
+         "str": 18,
+         "agi": 7,
+         "sta": 8,
+         "ac": 353,
+         "source": "PVP",
+         "phase": 2,
+         "id": 19087
+      },
+      {
          "name": "冲击束带",
          "crit": 1,
          "hit": 1,
@@ -735,7 +1686,40 @@ var gear = {
          "id": 19137
       },
       {
-         "name": "塞拉赞恩之链",
+         "name": "Ossirian's Binding",
+         "crit": 1,
+         "hit": 1,
+         "sta": 19,
+         "agi": 20,
+         "ac": 258,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21463
+      },
+      {
+         "name": "Royal Qiraji Belt",
+         "str": 13,
+         "sta": 22,
+         "agi": 13,
+         "parry": 1,
+         "defense": 8,
+         "ac": 512,
+         "source": "AQ40",
+         "phase": 5,
+         "id": 21598
+      },
+      {
+         "name": "Zandalar Vindicator's Belt",
+         "crit": 1,
+         "str": 25,
+         "sta": 10,
+         "ac": 391,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19823
+      },
+      {
+         "name": "Therazane's Link",
          "crit": 1,
          "sta": 22,
          "ap": 44,
@@ -745,7 +1729,7 @@ var gear = {
          "id": 19380
       },
       {
-         "name": "蔓延腰带",
+         "name": "Triad Girdle",
          "str": 26,
          "sta": 17,
          "agi": 19,
@@ -754,10 +1738,71 @@ var gear = {
          "phase": 5,
          "id": 21692
       },
+      {
+         "name": "Waistband of Wrath",
+         "str": 20,
+         "sta": 20,
+         "defense": 7,
+         "ac": 482,
+         "source": "BWL",
+         "phase": 3,
+         "id": 16960
+      }
    ],
    "legs": [
       {
-         "name": "踏云腿甲 (Used last 30 secs)",
+         "name": "Abyssal Plate Legplates",
+         "crit": 1,
+         "str": 15,
+         "sta": 15,
+         "agi": 15,
+         "ac": 566,
+         "source": "Other",
+         "phase": 4,
+         "id": 20671,
+         "rand": 2157,
+      },
+      {
+         "name": "Black Dragonscale Leggings",
+         "sta": 8,
+         "ap": 54,
+         "ac": 320,
+         "source": "Crafting",
+         "phase": 1,
+         "id": 15052
+      },
+      {
+         "name": "Blademaster Leggings",
+         "crit": 1,
+         "hit": 1,
+         "agi": 5,
+         "dodge": 2,
+         "ac": 154,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 12963
+      },
+      {
+         "name": "Bloodsoaked Legplates",
+         "str": 36,
+         "sta": 21,
+         "defense": 10,
+         "ac": 674,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19855
+      },
+      {
+         "name": "Cadaverous Leggings",
+         "sta": 18,
+         "ap": 52,
+         "ac": 150,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 14638
+      },
+      {
+         "name": "Cloudkeeper Legplates (Used last 30 secs)",
          "str": 20,
          "sta": 20,
          "agi": 20,
@@ -766,6 +1811,17 @@ var gear = {
          "source": "Other",
          "phase": 1,
          "id": 14554
+      },
+      {
+         "name": "Cloudkeeper Legplates (Not used)",
+         "str": 20,
+         "sta": 20,
+         "agi": 20,
+         "ap": 0,
+         "ac": 617,
+         "source": "Other",
+         "phase": 1,
+         "id": 145541
       },
       {
          "name": "征服者的腿铠",
@@ -780,7 +1836,7 @@ var gear = {
          "id": 21332
       },
       {
-         "name": "黑暗之心短裤",
+         "name": "Dark Heart Pants",
          "crit": 2,
          "sta": 20,
          "ap": 48,
@@ -788,6 +1844,36 @@ var gear = {
          "source": "Lethon",
          "phase": 4,
          "id": 20627
+      },
+      {
+         "name": "Devilsaur Leggings",
+         "crit": 1,
+         "sta": 12,
+         "ap": 46,
+         "ac": 148,
+         "source": "Crafting",
+         "phase": 1,
+         "id": 15062
+      },
+      {
+         "name": "Eldritch Reinforced Legplates",
+         "crit": 1,
+         "str": 15,
+         "sta": 20,
+         "agi": 9,
+         "ac": 566,
+         "source": "Dungeon",
+         "phase": 2,
+         "id": 18380
+      },
+      {
+         "name": "Handcrafted Mastersmith Leggings",
+         "str": 29,
+         "sta": 12,
+         "ac": 548,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 13498
       },
       {
          "name": "天启护腿",
@@ -801,7 +1887,7 @@ var gear = {
          "id": 23071
       },
       {
-         "name": "堕落十字军腿甲",
+         "name": "Legguards of the Fallen Crusader",
          "str": 28,
          "sta": 22,
          "agi": 22,
@@ -821,6 +1907,80 @@ var gear = {
          "id": 23068
       },
       {
+         "name": "Legplates of Heroism",
+         "str": 25,
+         "sta": 16,
+         "agi": 11,
+         "defense": 5,
+         "ac": 601,
+         "source": "Quest",
+         "phase": 5,
+         "id": 22000
+      },
+      {
+         "name": "Legplates of Might",
+         "str": 24,
+         "sta": 23,
+         "parry": 1,
+         "defense": 7,
+         "ac": 655,
+         "source": "MC",
+         "phase": 1,
+         "id": 16867
+      },
+      {
+         "name": "Legplates of the Qiraji Command",
+         "crit": 2,
+         "str": 20,
+         "sta": 13,
+         "ac": 644,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21495
+      },
+      {
+         "name": "Legplates of Valor",
+         "str": 23,
+         "sta": 15,
+         "agi": 11,
+         "ac": 557,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 16732
+      },
+      {
+         "name": "Legplates of Wrath",
+         "str": 19,
+         "sta": 27,
+         "dodge": 2,
+         "defense": 11,
+         "ac": 749,
+         "source": "MC",
+         "phase": 1,
+         "id": 16962
+      },
+      {
+         "name": "R12 Plate Legguards",
+         "crit": 2,
+         "hit": 1,
+         "str": 20,
+         "sta": 28,
+         "ac": 743,
+         "source": "PVP",
+         "phase": 2,
+         "id": 16479
+      },
+      {
+         "name": "R8 Plate Leggings",
+         "crit": 2,
+         "str": 12,
+         "sta": 17,
+         "ac": 618,
+         "source": "PVP",
+         "phase": 2,
+         "id": 23301
+      },
+      {
          "name": "缀鳞沙漠掠夺者护腿",
          "crit": 2,
          "sta": 23,
@@ -829,6 +1989,17 @@ var gear = {
          "source": "AQ40",
          "phase": 5,
          "id": 21651
+      },
+      {
+         "name": "Sentinel's Plate Legguards",
+         "crit": 1,
+         "hit": 1,
+         "str": 28,
+         "sta": 27,
+         "ac": 646,
+         "source": "PVP",
+         "phase": 6,
+         "id": 22672
       },
       {
          "name": "泰坦护腿",
@@ -840,8 +2011,76 @@ var gear = {
          "phase": 5,
          "id": 22385
       },
+      {
+         "name": "Darksoul Leggings",
+         "hit": 2,
+         "sta": 22,
+         "ac": 722,
+         "source": "Crafting",
+         "phase": 4,
+         "id": 19694
+      }
    ],
    "feet": [
+      {
+         "name": "Arathi Plate Greaves",
+         "str": 14,
+         "sta": 12,
+         "agi": 12,
+         "ac": 452,
+         "source": "PVP",
+         "phase": 4,
+         "id": 20208
+      },
+      {
+         "name": "Battlechaser's Greaves",
+         "str": 14,
+         "sta": 8,
+         "agi": 13,
+         "source": "Other",
+         "phase": 1,
+         "id": 12555
+      },
+      {
+         "name": "Black Dragonscale Boots",
+         "sta": 10,
+         "ap": 28,
+         "ac": 270,
+         "source": "Crafting",
+         "phase": 1,
+         "id": 16984
+      },
+      {
+         "name": "Blooddrenched Footpads",
+         "hit": 1,
+         "sta": 10,
+         "agi": 21,
+         "ac": 129,
+         "source": "ZG",
+         "phase": 4,
+         "id": 19906
+      },
+      {
+         "name": "Bloodmail Boots",
+         "hit": 1,
+         "str": 9,
+         "sta": 10,
+         "agi": 9,
+         "ac": 247,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 14616
+      },
+      {
+         "name": "Boots of Heroism",
+         "hit": 1,
+         "str": 20,
+         "sta": 20,
+         "ac": 470,
+         "source": "Quest",
+         "phase": 5,
+         "id": 21995
+      },
       {
          "name": "堕落英雄长靴",
          "hit": 1,
@@ -864,6 +2103,16 @@ var gear = {
          "id": 19381
       },
       {
+         "name": "Boots of the Vanguard",
+         "str": 22,
+         "sta": 11,
+         "agi": 22,
+         "ac": 138,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21493
+      },
+      {
          "name": "坚定意志长靴",
          "str": 12,
          "sta": 29,
@@ -873,6 +2122,16 @@ var gear = {
          "source": "AQ40",
          "phase": 5,
          "id": 21706
+      },
+      {
+         "name": "Boots of Valor",
+         "str": 8,
+         "sta": 20,
+         "agi": 4,
+         "ac": 424,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 16734
       },
       {
          "name": "多彩长靴",
@@ -896,6 +2155,106 @@ var gear = {
          "phase": 5,
          "id": 21333
       },
+      {
+         "name": "Pads of the Dread Wolf",
+         "sta": 14,
+         "ap": 40,
+         "ac": 116,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 13210
+      },
+      {
+         "name": "R12 Plate Boots",
+         "hit": 1,
+         "str": 18,
+         "sta": 24,
+         "agi": 12,
+         "ac": 592,
+         "source": "PVP",
+         "phase": 2,
+         "id": 16483
+      },
+      {
+         "name": "R7 Plate Boots",
+         "str": 10,
+         "sta": 23,
+         "agi": 9,
+         "ac": 472,
+         "source": "PVP",
+         "phase": 2,
+         "id": 23287
+      },
+      {
+         "name": "Sabatons of Might",
+         "str": 15,
+         "sta": 26,
+         "defense": 5,
+         "ac": 515,
+         "source": "MC",
+         "phase": 1,
+         "id": 16862
+      },
+      {
+         "name": "Sabatons of Wrath",
+         "str": 13,
+         "sta": 30,
+         "defense": 7,
+         "ac": 589,
+         "source": "BWL",
+         "phase": 3,
+         "id": 16965
+      },
+      {
+         "name": "Sapphiron's Scale Boots",
+         "str": 14,
+         "sta": 14,
+         "agi": 9,
+         "ac": 417,
+         "source": "Other",
+         "phase": 1,
+         "id": 13070
+      },
+      {
+         "name": "Slime Kickers",
+         "hit": 1,
+         "str": 18,
+         "sta": 12,
+         "agi": 12,
+         "ac": 519,
+         "source": "AQ20",
+         "phase": 5,
+         "id": 21490
+      },
+      {
+         "name": "Swiftwalker Boots",
+         "str": 4,
+         "sta": 7,
+         "agi": 21,
+         "ac": 115,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 12553
+      },
+      {
+         "name": "Windreaver Greaves",
+         "hit": 1,
+         "agi": 20,
+         "ac": 247,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 13967
+      },
+      {
+         "name": "Savage Gladiator Greaves",
+         "str": 10,
+         "agi": 15,
+         "sta": 13,
+         "ac": 233,
+         "source": "Dungeon",
+         "phase": 1,
+         "id": 11731
+      }
    ],
    "finger1": [
       {

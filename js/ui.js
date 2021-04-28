@@ -217,7 +217,7 @@ SIM.UI = {
         }
         player = new Player(...params.player);
         if (!player.mh) {
-            view.addAlert('No weapon selected');
+            view.addAlert('请选择主手武器');
             view.endLoading();
             return;
         }
