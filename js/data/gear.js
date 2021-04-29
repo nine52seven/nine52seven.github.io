@@ -1598,15 +1598,6 @@ var gear = {
          "id": 21478
       },
       {
-         "name": "血木猎弓",
-         "str": 2,
-         "sta": 9,
-         "agi": 3,
-         "source": "Quest",
-         "phase": "1",
-         "id": 16996
-      },
-      {
          "name": "击心者",
          "sta": 9,
          "ap": 24,
@@ -1615,27 +1606,11 @@ var gear = {
          "id": 19350
       },
       {
-         "name": "噩运猎弓",
-         "sta": 4,
-         "agi": 10,
-         "source": "ZG",
-         "phase": "4",
-         "id": 19993
-      },
-      {
          "name": "哈霍兰之刺",
          "agi": 18,
          "source": "AQ40",
          "phase": "5",
          "id": 21616
-      },
-      {
-         "name": "玛尔根的长弓",
-         "sta": 4,
-         "ap": 20,
-         "source": "Other",
-         "phase": "1",
-         "id": 22318
       },
       {
          "name": "曼多基尔之刺",
@@ -1653,21 +1628,6 @@ var gear = {
          "source": "Naxx",
          "phase": "6",
          "id": 22811
-      },
-      {
-         "name": "Outrunner's Bow",
-         "sta": 10,
-         "agi": 4,
-         "source": "PVP",
-         "phase": "2",
-         "id": 19562
-      },
-      {
-         "name": "撕裂之钩",
-         "ap": 22,
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 12653
       },
       {
          "name": "萨特强弓",
@@ -1692,14 +1652,6 @@ var gear = {
          "source": "Dungeon",
          "phase": "1",
          "id": 12651
-      },
-      {
-         "name": "觅血者",
-         "str": 8,
-         "agi": 7,
-         "source": "PVP",
-         "phase": "2",
-         "id": 19107
       },
       {
          "name": "虫壳强弩",
@@ -1744,44 +1696,12 @@ var gear = {
          "id": 22812
       },
       {
-         "name": "抛光铁木强弩",
-         "sta": 5,
-         "ap": 24,
-         "source": "Emeriss",
-         "phase": "4",
-         "id": 20599
-      },
-      {
-         "name": "碎颅强弩",
-         "str": 3,
-         "ap": 14,
-         "source": "Other",
-         "phase": "1",
-         "id": 13039
-      },
-      {
          "name": "爆击猎枪",
          "crit": 1,
          "sta": 6,
          "source": "MC",
          "phase": "1",
          "id": 17072
-      },
-      {
-         "name": "Burstshot Harquebus",
-         "sta": 8,
-         "ap": 10,
-         "source": "Other",
-         "phase": "1",
-         "id": 13248
-      },
-      {
-         "name": "Crystal Slugthrower",
-         "sta": 4,
-         "ap": 20,
-         "source": "Other",
-         "phase": "4",
-         "id": 20722
       },
       {
          "name": "龙息手持火炮",
@@ -1792,35 +1712,12 @@ var gear = {
          "id": 19368
       },
       {
-         "name": "Gurubashi Dwarf Destroyer",
-         "ap": 30,
-         "source": "ZG",
-         "phase": "4",
-         "id": 19853
-      },
-      {
-         "name": "Guttbuster",
-         "str": 3,
-         "agi": 8,
-         "source": "Other",
-         "phase": "1",
-         "id": 13139
-      },
-      {
          "name": "巨虫的幼体",
          "crit": 1,
          "ap": 18,
          "source": "AQ40",
          "phase": "5",
          "id": 23557
-      },
-      {
-         "name": "Silithid Husked Launcher",
-         "sta": 10,
-         "agi": 4,
-         "source": "AQ20",
-         "phase": "5",
-         "id": 21800
       },
       {
          "name": "毒液注射器",
@@ -1830,14 +1727,6 @@ var gear = {
          "phase": "6",
          "id": 22810
       },
-      {
-         "name": "Willey's Portable Howitzer",
-         "sta": 9,
-         "ap": 8,
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 13380
-      }
    ],
    "mainhand": [
       {
@@ -4124,18 +4013,6 @@ var gear = {
          "type": "Sword",
          "magicdmg": 258,
          "ppm": 1,
-      },
-      {
-         "name": "黑曜石之刃",
-         "str": 42,
-         "mindmg": 176,
-         "maxdmg": 264,
-         "speed": 3.4,
-         "id": 18822,
-         "source": "MC",
-         "phase": 1,
-         "skill": 8,
-         "type": "Sword"
       },
       {
          "name": "狂野之刃",
