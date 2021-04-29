@@ -1537,14 +1537,6 @@ var gear = {
          "procextra": 1,
          "procchance": 2
       },
-      // {
-      //    "name": "维姆萨拉克之心 (Assumed 2% proc chance)",
-      //    "source": "Dungeon",
-      //    "phase": "1",
-      //    "id": 22321,
-      //    "procchance": 2,
-      //    "magicdmg": 165,
-      // },
       {
          "name": "沙虫之毒 (Used last 20 secs)",
          "source": "AQ40",
