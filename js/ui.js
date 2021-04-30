@@ -105,7 +105,6 @@ SIM.UI = {
             li.siblings().removeClass('active');
             var type = li.data('type');
             if (!type) type = li.parents('[data-type]').data('type');
-
             if (type == "mainhand" || type == "offhand" || type == "twohand")
                 view.loadWeapons(type);
             else if (type == "custom")
@@ -579,18 +578,18 @@ SIM.UI = {
         view.sidebar.find('#str').text(player.stats.str);
         view.sidebar.find('#agi').text(player.stats.agi);
         view.sidebar.find('#ap').text(player.stats.ap);
-        view.sidebar.find('#skill').html(player.stats['skill_' + player.mh.type] + ' <small>MH</small>' + (player.oh ? space + player.stats['skill_' + player.oh.type] + ' <small>OH</small>' : ''));
+        view.sidebar.find('#skill').html(player.stats['skill_' + player.mh.type] + ' <small>主手</small>' + (player.oh ? space + player.stats['skill_' + player.oh.type] + ' <small>副手</small>' : ''));
         view.sidebar.find('#hit').html((player.stats.hit || 0) + '%');
-        view.sidebar.find('#miss').html(Math.max(player.mh.miss, 0).toFixed(2) + '% <small>1H</small>' + (player.oh ? space + Math.max(player.mh.dwmiss, 0).toFixed(2) + '% <small>DW</small>' : ''));
+        view.sidebar.find('#miss').html(Math.max(player.mh.miss, 0).toFixed(2) + '% <small>单手</small>' + (player.oh ? space + Math.max(player.mh.dwmiss, 0).toFixed(2) + '% <small>双持</small>' : ''));
         let mhcrit = player.crit + player.mh.crit;
         let ohcrit = player.crit + (player.oh ? player.oh.crit : 0);
-        view.sidebar.find('#crit').html(mhcrit.toFixed(2) + '% <small>MH</small>' + (player.oh ? space + ohcrit.toFixed(2) + '% <small>OH</small>' : ''));
+        view.sidebar.find('#crit').html(mhcrit.toFixed(2) + '% <small>主手</small>' + (player.oh ? space + ohcrit.toFixed(2) + '% <small>副手</small>' : ''));
         let mhcap = 100 - player.mh.dwmiss - player.mh.dodge - player.mh.glanceChance;
         let ohcap = player.oh ? 100 - player.oh.dwmiss - player.oh.dodge - player.oh.glanceChance : 0;
-        view.sidebar.find('#critcap').html(mhcap.toFixed(2) + '% <small>MH</small>'+ (player.oh ? space + ohcap.toFixed(2) + '% <small>OH</small>' : ''));
+        view.sidebar.find('#critcap').html(mhcap.toFixed(2) + '% <small>主手</small>'+ (player.oh ? space + ohcap.toFixed(2) + '% <small>副手</small>' : ''));
         let mhdmg = player.stats.dmgmod * player.mh.modifier * 100;
         let ohdmg = player.stats.dmgmod * (player.oh ? player.oh.modifier * 100 : 0);
-        view.sidebar.find('#dmgmod').html(mhdmg.toFixed(2) + '% <small>MH</small>' + (player.oh ? space + ohdmg.toFixed(2) + '% <small>OH</small>' : ''));
+        view.sidebar.find('#dmgmod').html(mhdmg.toFixed(2) + '% <small>主手</small>' + (player.oh ? space + ohdmg.toFixed(2) + '% <small>副手</small>' : ''));
         view.sidebar.find('#haste').html((player.stats.haste * 100).toFixed(2) + '%');
         view.sidebar.find('#race').text(localStorage.race);
         view.sidebar.find('#sets').empty();
@@ -706,6 +705,7 @@ SIM.UI = {
     filterGear: function () {
         var view = this;
         var type = view.main.find('nav > ul > li.active').data('type');
+        console.log(type)
         if (type == "mainhand" || type == "offhand")
             view.loadWeapons(type);
         else if (type == "custom")
@@ -716,13 +716,13 @@ SIM.UI = {
 
     loadWeapons: function (type, editmode) {
         var view = this;
-        var filter = view.main.find('nav li.active .filter .active').text();
-
+        // var filter = view.main.find('nav li.active .filter .active').text();
+        var filter = view.main.find('nav li.active .filter .active').data('t');
         let table = `<table class="gear ${editmode ? 'editmode' : ''}" data-type="${type}" data-max="1">
                         <thead>
                             <tr>
                                 ${editmode ? '<th></th>' : ''}
-                                <th>Name</th>
+                                <th>名称</th>
                                 <th>Source</th>
                                 <th>Sta</th>
                                 <th>Str</th>
@@ -742,7 +742,7 @@ SIM.UI = {
                     <tbody>`;
 
         for (let item of gear[type]) {
-
+            // console.log(filter)
             if (filter && filter != "All") {
                 if (filter == "Mace & Sword") {
                     if (item.type != "Mace" && item.type != "Sword") continue;

@@ -396,6 +396,15 @@ var gear = {
    ],
    "chest": [
       {
+         "name": "亡灵毁灭胸甲 (vs Undead)",
+         "sta": 20,
+         "ac": 657,
+         "ap": 81,
+         "source": "Other",
+         "phase": 6,
+         "id": 23087
+      },
+      {
          "name": "血魂胸甲",
          "crit": 2,
          "sta": 13,
@@ -493,6 +502,15 @@ var gear = {
    ],
    "wrist": [
       {
+         "name": "亡灵毁灭护腕 (vs Undead)",
+         "sta": 10,
+         "ac": 287,
+         "ap": 45,
+         "source": "Other",
+         "phase": 6,
+         "id": 23090
+      },
+      {
          "name": "野蛮护腕",
          "str": 21,
          "sta": 9,
@@ -563,6 +581,15 @@ var gear = {
       }
    ],
    "hands": [
+      {
+         "name": "亡灵毁灭手套 (vs Undead)",
+         "sta": 15,
+         "ac": 410,
+         "ap": 60,
+         "source": "Quest",
+         "phase": 6,
+         "id": 23078
+      },
       {
          "name": "古代熔火皮手套",
          "crit": 1,
@@ -916,38 +943,12 @@ var gear = {
          "id": 17063
       },
       {
-         "name": "Band of Earthen Might",
-         "crit": 1,
-         "hit": 1,
-         "str": 6,
-         "source": "Quest",
-         "phase": "5",
-         "id": 21182
-      },
-      {
-         "name": "Band of Jin",
-         "hit": 1,
-         "sta": 8,
-         "agi": 14,
-         "source": "ZG",
-         "phase": "4",
-         "id": 19925
-      },
-      {
          "name": "鼓舞之戒",
          "sta": 22,
          "agi": 34,
          "source": "Naxx",
          "phase": "6",
          "id": 22961
-      },
-      {
-         "name": "Band of the Ogre King",
-         "str": 14,
-         "sta": 13,
-         "source": "Dungeon",
-         "phase": "2",
-         "id": 18522
       },
       {
          "name": "超自然能量指环",
@@ -957,15 +958,6 @@ var gear = {
          "source": "Naxx",
          "phase": "6",
          "id": 23038
-      },
-      {
-         "name": "Blackstone Ring",
-         "hit": 1,
-         "sta": 6,
-         "ap": 20,
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 17713
       },
       {
          "name": "源力之环",
@@ -987,15 +979,6 @@ var gear = {
          "id": 19325
       },
       {
-         "name": "Magni's Will",
-         "crit": 1,
-         "str": 6,
-         "sta": 7,
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 12548
-      },
-      {
          "name": "屠龙大师之戒",
          "hit": 1,
          "sta": 14,
@@ -1003,32 +986,6 @@ var gear = {
          "source": "BWL",
          "phase": "3",
          "id": 19384
-      },
-      {
-         "name": "Might of Cenarius",
-         "hit": 1,
-         "sta": 8,
-         "source": "Quest",
-         "phase": "5",
-         "id": 21189
-      },
-      {
-         "name": "Painweaver Band",
-         "crit": 1,
-         "sta": 7,
-         "ap": 16,
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 13098
-      },
-      {
-         "name": "Protector's Band",
-         "str": 12,
-         "sta": 8,
-         "agi": 11,
-         "source": "PVP",
-         "phase": 3,
-         "id": 19514
       },
       {
          "name": "迅击戒指",
@@ -1039,16 +996,6 @@ var gear = {
          "source": "MC",
          "phase": "1",
          "id": 18821
-      },
-      {
-         "name": "Ring of Emperor Vek'lor",
-         "sta": 18,
-         "agi": 12,
-         "defense": 9,
-         "ac": 100,
-         "source": "AQ40",
-         "phase": "5",
-         "id": 21601
       },
       {
          "name": "愤怒之戒",
@@ -1077,23 +1024,6 @@ var gear = {
          "id": 21677
       },
       {
-         "name": "Seal of Jin",
-         "crit": 1,
-         "sta": 8,
-         "ap": 20,
-         "source": "ZG",
-         "phase": "4",
-         "id": 19898
-      },
-      {
-         "name": "Seal of the Gurubashi Berserker",
-         "sta": 13,
-         "ap": 40,
-         "source": "ZG",
-         "phase": "4",
-         "id": 22722
-      },
-      {
          "name": "堕落卫士的徽记",
          "hit": 1,
          "sta": 24,
@@ -1101,15 +1031,6 @@ var gear = {
          "source": "Naxx",
          "phase": "6",
          "id": 23018
-      },
-      {
-         "name": "Signet of Unyielding Strength",
-         "crit": 1,
-         "str": 11,
-         "sta": 14,
-         "source": "Quest",
-         "phase": "5",
-         "id": 21393
       },
       {
          "name": "青铜龙军团的徽记之戒",
@@ -1120,14 +1041,6 @@ var gear = {
          "phase": "5",
          "id": 21205
       },
-      {
-         "name": "Tarnished Elven Ring",
-         "hit": 1,
-         "agi": 15,
-         "source": "Dungeon",
-         "phase": "2",
-         "id": 18500
-      }
    ],
    "finger2": [
       {
@@ -1148,38 +1061,12 @@ var gear = {
          "id": 17063
       },
       {
-         "name": "Band of Earthen Might",
-         "crit": 1,
-         "hit": 1,
-         "str": 6,
-         "source": "Quest",
-         "phase": "5",
-         "id": 21182
-      },
-      {
-         "name": "Band of Jin",
-         "hit": 1,
-         "sta": 8,
-         "agi": 14,
-         "source": "ZG",
-         "phase": "4",
-         "id": 19925
-      },
-      {
          "name": "鼓舞之戒",
          "sta": 22,
          "agi": 34,
          "source": "Naxx",
          "phase": "6",
          "id": 22961
-      },
-      {
-         "name": "Band of the Ogre King",
-         "str": 14,
-         "sta": 13,
-         "source": "Dungeon",
-         "phase": "2",
-         "id": 18522
       },
       {
          "name": "超自然能量指环",
@@ -1189,15 +1076,6 @@ var gear = {
          "source": "Naxx",
          "phase": "6",
          "id": 23038
-      },
-      {
-         "name": "Blackstone Ring",
-         "hit": 1,
-         "sta": 6,
-         "ap": 20,
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 17713
       },
       {
          "name": "源力之环",
@@ -1219,15 +1097,6 @@ var gear = {
          "id": 19325
       },
       {
-         "name": "Magni's Will",
-         "crit": 1,
-         "str": 6,
-         "sta": 7,
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 12548
-      },
-      {
          "name": "屠龙大师之戒",
          "hit": 1,
          "sta": 14,
@@ -1235,32 +1104,6 @@ var gear = {
          "source": "BWL",
          "phase": "3",
          "id": 19384
-      },
-      {
-         "name": "Might of Cenarius",
-         "hit": 1,
-         "sta": 8,
-         "source": "Quest",
-         "phase": "5",
-         "id": 21189
-      },
-      {
-         "name": "Painweaver Band",
-         "crit": 1,
-         "sta": 7,
-         "ap": 16,
-         "source": "Dungeon",
-         "phase": "1",
-         "id": 13098
-      },
-      {
-         "name": "Protector's Band",
-         "str": 12,
-         "sta": 8,
-         "agi": 11,
-         "source": "PVP",
-         "phase": 3,
-         "id": 19514
       },
       {
          "name": "迅击戒指",
@@ -1271,16 +1114,6 @@ var gear = {
          "source": "MC",
          "phase": "1",
          "id": 18821
-      },
-      {
-         "name": "Ring of Emperor Vek'lor",
-         "sta": 18,
-         "agi": 12,
-         "defense": 9,
-         "ac": 100,
-         "source": "AQ40",
-         "phase": "5",
-         "id": 21601
       },
       {
          "name": "愤怒之戒",
@@ -1309,41 +1142,6 @@ var gear = {
          "id": 21677
       },
       {
-         "name": "Seal of Jin",
-         "crit": 1,
-         "sta": 8,
-         "ap": 20,
-         "source": "ZG",
-         "phase": "4",
-         "id": 19898
-      },
-      {
-         "name": "Seal of the Gurubashi Berserker",
-         "sta": 13,
-         "ap": 40,
-         "source": "ZG",
-         "phase": "4",
-         "id": 22722
-      },
-      {
-         "name": "Signet of the Fallen Defender",
-         "hit": 1,
-         "sta": 24,
-         "ac": 140,
-         "source": "Naxx",
-         "phase": "6",
-         "id": 23018
-      },
-      {
-         "name": "Signet of Unyielding Strength",
-         "crit": 1,
-         "str": 11,
-         "sta": 14,
-         "source": "Quest",
-         "phase": "5",
-         "id": 21393
-      },
-      {
          "name": "青铜龙军团的徽记之戒",
          "hit": 1,
          "sta": 13,
@@ -1352,14 +1150,6 @@ var gear = {
          "phase": "5",
          "id": 21205
       },
-      {
-         "name": "Tarnished Elven Ring",
-         "hit": 1,
-         "agi": 15,
-         "source": "Dungeon",
-         "phase": "2",
-         "id": 18500
-      }
    ],
    "trinket1": [
       {
@@ -4452,21 +4242,21 @@ var enchant = {
       {
          "id": 27837,
          "spellid": true,
-         "name": "2H Agility",
+         "name": "附魔双手武器 - 敏捷",
          "agi": 25,
          "phase": 1
       },
       {
          "id": 23799,
          "spellid": true,
-         "name": "Strength",
+         "name": "附魔武器 - 力量",
          "str": 15,
          "phase": 1
       },
       {
          "id": 20034,
          "spellid": true,
-         "name": "Crusader",
+         "name": "附魔武器 - 十字军",
          "phase": 1,
          "ppm": 1,
          "procspell": "Crusader"
@@ -4474,7 +4264,7 @@ var enchant = {
       {
          "id": 13898,
          "spellid": true,
-         "name": "Fiery",
+         "name": "附魔武器 - 烈焰",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 44
@@ -4482,28 +4272,28 @@ var enchant = {
       {
          "id": 20032,
          "spellid": true,
-         "name": "Lifestealing",
+         "name": "附魔武器 - 生命偷取",
          "phase": 1,
          "ppm": 6,
          "magicdmg": 33
       },
       {
          "id": 18262,
-         "name": "Elemental Sharpening Stone",
+         "name": "元素磨刀石",
          "crit": 2,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 12404,
-         "name": "Dense Stone",
+         "name": "致密磨刀石",
          "bonusdmg": 8,
          "phase": 1,
          "temp": true,
       },
       {
          "id": 23122,
-         "name": "Consecrated Sharpening Stone",
+         "name": "神圣磨刀石",
          "ap": 108,
          "phase": 6,
          "temp": true,
@@ -4511,13 +4301,13 @@ var enchant = {
       {
          "id": 20030,
          "spellid": true,
-         "name": "Superior Impact",
+         "name": "附魔武器 - 超强冲击",
          "bonusdmg": 9,
          "phase": 1
       },
       {
          "id": 6043,
-         "name": "Iron Counterweight",
+         "name": "铁质平衡锤",
          "haste": 3,
          "phase": 1,
          "temp": true,
@@ -4536,7 +4326,7 @@ var sets = [
    },
    {
       id: 533,
-      name: 'Battlegear of Undead Slaying (vs Undead)',
+      name: '亡灵毁灭者 (vs Undead)',
       items: [23078, 23087, 23090],
       bonus: [
          { count: 3, stats: { dmgmod: .02 } }

@@ -1,6 +1,6 @@
 var races = [
    {
-      name: 'Human',
+      name: '人类',
       str: 120,
       agi: 80,
       sta: 110,
@@ -11,7 +11,7 @@ var races = [
       skill_2: 0,
       skill_3: 0,
    },{
-      name: 'Dwarf',
+      name: '矮人',
       str: 122,
       agi: 76,
       sta: 113,
@@ -22,7 +22,7 @@ var races = [
       skill_2: 0,
       skill_3: 0,
    },{
-      name: 'Gnome',
+      name: '侏儒',
       str: 115,
       agi: 83,
       sta: 109,
@@ -33,7 +33,7 @@ var races = [
       skill_2: 0,
       skill_3: 0,
    },{
-      name: 'Night Elf',
+      name: '暗夜精灵',
       str: 117,
       agi: 85,
       sta: 109,
@@ -44,7 +44,7 @@ var races = [
       skill_2: 0,
       skill_3: 0,
    },{
-      name: 'Orc',
+      name: '兽人',
       str: 123,
       agi: 77,
       sta: 112,
@@ -55,7 +55,7 @@ var races = [
       skill_2: 0,
       skill_3: 5,
    },{
-      name: 'Tauren',
+      name: '牛头人',
       str: 125,
       agi: 75,
       sta: 112,
@@ -66,7 +66,7 @@ var races = [
       skill_2: 0,
       skill_3: 0,
    },{
-      name: 'Troll',
+      name: '巨魔',
       str: 121,
       agi: 82,
       sta: 111,
@@ -77,7 +77,7 @@ var races = [
       skill_2: 0,
       skill_3: 0,
    },{
-      name: 'Undead',
+      name: '亡灵',
       str: 119,
       agi: 78,
       sta: 111,

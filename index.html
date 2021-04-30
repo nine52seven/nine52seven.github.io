@@ -95,7 +95,7 @@ profiles
           <span id="crit"></span>
         </li>
         <li>
-          <label>Crit Cap</label>
+          <label>暴击上限</label>
           <span id="critcap"></span>
         </li>
         <li>
@@ -117,20 +117,20 @@ profiles
         <div id="weight-str"><span class="stat-name">力量:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
         <div id="weight-agi"><span class="stat-name">敏捷:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
         <div id="weight-ap"><span class="stat-name">攻强:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
-        <div id="weight-crit"><span class="stat-name">暴击几率:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
-        <div id="weight-hit"><span class="stat-name">命中几率:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
+        <div id="weight-crit"><span class="stat-name">暴击:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
+        <div id="weight-hit"><span class="stat-name">命中:</span><span class="stat-dps">12345</span><span class="stat-error">123</span></div>
       </div>
       <div id="dps-box"><span id="dps"></span><span id="dpserr"></span></div>
       <div id="stats"></div>
       <div id="time"></div>
       <a href="#" class="btn js-dps">DPS</a>
       <a href="#" class="btn js-weights">属性权重</a>
-      <a href="#" class="btn js-table">比较所有</a>
+      <a href="#" class="btn js-table">计算所有</a>
       <a href="#" class="btn js-stats disabled">详情分析</a>
       <a href="#" class="btn js-settings">设置</a>
     </div>
     <div class="manual"><a href="https://docs.google.com/document/d/1-ugglMDHqIQlEDiE2z9G7zuI-kgyvb2kvgPobWbcxy0/edit" target="_blank">用户手册</a></div>
-    <div class="author">made by Guybrush-Golemagg</div>
+    <div class="author">made by Guybrush-Golemagg | 汉化 by 玖無貳柒</div>
   </section>
 
   <section class="settings">
@@ -147,14 +147,14 @@ profiles
           <li>
             <label>种族</label>
             <select dir="rtl" name="race">
-              <option value="Human">人类</option>
-              <option value="Dwarf">矮人</option>
-              <option value="Gnome">侏儒</option>
-              <option value="Night Elf">暗夜精灵</option>
-              <option value="Undead">亡灵</option>
-              <option value="Orc">兽人</option>
-              <option value="Tauren">牛头人</option>
-              <option value="Troll">巨魔</option>
+              <option value="人类">人类</option>
+              <option value="矮人">矮人</option>
+              <option value="侏儒">侏儒</option>
+              <option value="暗夜精灵">暗夜精灵</option>
+              <option value="亡灵">亡灵</option>
+              <option value="兽人">兽人</option>
+              <option value="牛头人">牛头人</option>
+              <option value="巨魔">巨魔</option>
             </select>
           </li>
           <li>
@@ -301,38 +301,37 @@ profiles
         <li data-type="mainhand" class="active">
           <p>主手</p>
           <ul class="filter">
-            <li class="active"><p>All</p></li>
-            <li><p>Axe</p></li>
-            <li><p>Dagger</p></li>
-            <li><p>Fist</p></li>
-            <li><p>Mace</p></li>
-            <li><p>Sword</p></li>
-            <li><p>Mace & Sword</p></li>
-            <li><p>Axe, Dagger & Sword</p></li>
+            <li data-t="All" class="active"><p>All</p></li>
+            <li data-t="Axe"><p>单手斧</p></li>
+            <li data-t="Dagger"><p>匕首</p></li>
+            <li data-t="Fist"><p>拳套</p></li>
+            <li data-t="Mace"><p>单手锤</p></li>
+            <li data-t="Sword"><p>单手剑</p></li>
+            <li data-t="Mace & Sword"><p>锤 & 剑(人类)</p></li>
+            <li data-t="Axe, Dagger & Sword"><p>单手斧, 匕首 & 单手剑 (剑师)</p></li>
           </ul>
         </li>
         <li data-type="offhand">
           <p>副手</p>
           <ul class="filter">
-            <li class="active"><p>All</p></li>
-            <li><p>Axe</p></li>
-            <li><p>Dagger</p></li>
-            <li><p>Fist</p></li>
-            <li><p>Mace</p></li>
-            <li><p>Sword</p></li>
-            <li><p>Mace & Sword</p></li>
-            <li><p>Axe, Dagger & Sword</p></li>
-          </ul>
+            <li data-t="All" class="active"><p>All</p></li>
+            <li data-t="Axe"><p>单手斧</p></li>
+            <li data-t="Dagger"> <p>匕首</p> </li>
+            <li data-t="Fist"> <p>拳套</p> </li>
+            <li data-t="Mace"> <p>单手锤</p> </li>
+            <li data-t="Sword"> <p>单手剑</p> </li>
+            <li data-t="Mace & Sword"> <p>锤 & 剑(人类)</p> </li>
+            <li data-t="Axe, Dagger & Sword"> <p>单手斧, 匕首 & 单手剑 (剑师)</p> </li> </ul>
         </li>
         <li data-type="twohand">
           <p>双手</p>
           <ul class="filter">
-            <li class="active"><p>All</p></li>
-            <li><p>Axe</p></li>
-            <li><p>Mace</p></li>
-            <li><p>Polearm</p></li>
-            <li><p>Sword</p></li>
-            <li><p>Mace & Sword</p></li>
+            <li  data-t="All" class="active"><p>All</p></li>
+            <li data-t="Axe"><p>双手斧</p></li>
+            <li data-t="Mace"><p>双手锤</p></li>
+            <li data-t="Polearm"><p>长柄武器</p></li>
+            <li data-t="Sword"><p>双手剑</p></li>
+            <li data-t="Mace & Sword"><p>双手剑&双手锤（人类）</p></li>
           </ul>
         </li>
         <li data-type="head"><p>头盔</p></li>

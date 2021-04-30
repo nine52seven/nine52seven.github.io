@@ -126,14 +126,14 @@ SIM.SETTINGS = {
             var berserking = view.rotation.find('[data-id="26296"]');
             var disableSpells = [];
 
-            if (val == "Orc") {
+            if (val == "兽人") {
                 bloodfury.removeClass('hidden');
             }
             else {
                 bloodfury.addClass('hidden').removeClass('active');
                 disableSpells.push(20572);
             }
-            if (val == "Troll") {
+            if (val == "巨魔") {
                 berserking.removeClass('hidden');
             }
             else {
@@ -205,9 +205,9 @@ SIM.SETTINGS = {
                 div.find('.options').append(`<li>延迟 <input style="width:25px" type="text" name="reaction" value="${spell.reaction}" data-numberonly="true" /> ms</li>`);
             if (spell.hidden)
                 div.addClass('hidden');
-            if (localStorage.race == "Orc" && spell.id == 20572)
+            if (localStorage.race == "兽人" && spell.id == 20572)
                 div.removeClass('hidden');
-            if (localStorage.race == "Troll" && spell.id == 26296)
+            if (localStorage.race == "巨魔" && spell.id == 26296)
                 div.removeClass('hidden');
             if (spell.active)
                 div.addClass('active');

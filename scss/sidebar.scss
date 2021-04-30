@@ -21,28 +21,28 @@
         height: 100%;
         opacity: 0.1;
         pointer-events: none;
-        &[data-race="Human"] {
+        &[data-race="人类"] {
             background-image: url(../img/human.png);
         }
-        &[data-race="Gnome"] {
+        &[data-race="侏儒"] {
             background-image: url(../img/gnome.png);
         }
-        &[data-race="Dwarf"] {
+        &[data-race="矮人"] {
             background-image: url(../img/dwarf.png);
         }
-        &[data-race="Night Elf"] {
+        &[data-race="暗夜精灵"] {
             background-image: url(../img/nightelf.png);
         }
-        &[data-race="Orc"] {
-            background-image: url(../img/orc.png);
+        &[data-race="兽人"] {
+            background-image: url(../img/兽人.png);
         }
-        &[data-race="Undead"] {
+        &[data-race="亡灵"] {
             background-image: url(../img/undead.png);
         }
-        &[data-race="Tauren"] {
+        &[data-race="牛头人"] {
             background-image: url(../img/tauren.png);
         }
-        &[data-race="Troll"] {
+        &[data-race="巨魔"] {
             background-image: url(../img/troll.png);
         }
     }
