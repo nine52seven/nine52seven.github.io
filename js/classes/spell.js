@@ -171,7 +171,7 @@ class HeroicStrike extends Spell {
         this.maincd = parseInt(spells[2].maincd) * 1000;
         this.unqueue = parseInt(spells[2].unqueue);
         this.unqueuetimer = parseInt(spells[2].unqueuetimer);
-        this.name = 'Heroic Strike';
+        this.name = '英勇打击';
         this.bonus = player.aqbooks ? 157 : 138;
         this.maxdelay = parseInt(spells[2].reaction);
         this.useonly = true;
@@ -194,7 +194,7 @@ class HeroicStrikeExecute extends Spell {
         this.threshold = parseInt(spells[19].minrage);
         this.unqueue = parseInt(spells[19].unqueue);
         this.unqueuetimer = parseInt(spells[19].unqueuetimer);
-        this.name = 'Heroic Strike (Execute Phase)';
+        this.name = '英勇打击 (斩杀阶段)';
         this.bonus = player.aqbooks ? 157 : 138;
         this.maxdelay = parseInt(spells[19].reaction);
         this.useonly = true;
@@ -213,7 +213,7 @@ class MortalStrike extends Spell {
         super(player);
         this.cost = 30;
         this.cooldown = 6;
-        this.name = 'Mortal Strike';
+        this.name = '致死打击';
         this.threshold = parseInt(spells[1].minrage);
         this.maxdelay = parseInt(spells[1].reaction);
     }
@@ -236,7 +236,7 @@ class SunderArmor extends Spell {
         this.maxdelay = parseInt(spells[16].reaction);
         this.stacks = 0;
         this.nocrit = true;
-        this.name = 'Sunder Armor';
+        this.name = '破甲攻击';
     }
     use() {
         this.player.timer = 1500;
@@ -353,7 +353,7 @@ class DeepWounds extends Aura {
     constructor(player) {
         super(player);
         this.duration = 12;
-        this.name = 'Deep Wounds';
+        this.name = '重伤';
         this.idmg = 0;
         this.totaldmg = 0;
         this.lasttick = 0;
@@ -457,7 +457,7 @@ class DeathWish extends Aura {
         super(player);
         this.duration = 30;
         this.mult_stats = { dmgmod: 20 };
-        this.name = 'Death Wish';
+        this.name = '死愿';
         this.crusaders = parseInt(spells[6].crusaders);
         this.timetoend = parseInt(spells[6].timetoend) * 1000;
         this.maxdelay = parseInt(spells[6].reaction);

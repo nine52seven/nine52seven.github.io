@@ -259,7 +259,7 @@ SIM.STATS = {
     buildTable: function (sim) {
         var view = this;
         view.table.empty();
-        let html = '<table><thead><tr><th>动作</th><th>命中 %</th><th>暴击 %</th><th>未命中 %</th><th>躲闪 %</th><th>偏斜 %</th><th>Uses</th><th>DPS</th></tr></thead><tbody>';
+        let html = '<table><thead><tr><th>动作</th><th>命中 %</th><th>暴击 %</th><th>未命中 %</th><th>躲闪 %</th><th>偏斜 %</th><th>次数</th><th>DPS</th></tr></thead><tbody>';
 
 
         let i = sim.iterations;
@@ -277,6 +277,7 @@ SIM.STATS = {
         
         for (let name in sim.player.spells) {
             let n = sim.player.spells[name].name;
+            console.log(n);
             let data = sim.player.spells[name].data;
             let total = data.reduce((a, b) => a + b, 0);
             if (!total) continue;
