@@ -277,7 +277,7 @@ SIM.STATS = {
         
         for (let name in sim.player.spells) {
             let n = sim.player.spells[name].name;
-            console.log(n);
+            // console.log(n);
             let data = sim.player.spells[name].data;
             let total = data.reduce((a, b) => a + b, 0);
             if (!total) continue;
